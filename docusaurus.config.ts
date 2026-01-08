@@ -7,7 +7,7 @@ const config: Config = {
      tagline: 'The Blockchain for Business',
      favicon: 'img/kadena-favicon.png',
      url: 'https://kda-chain.org/docs',
-     baseUrl: '/docs',
+     baseUrl: '/docs/',
      trailingSlash: false,
 
      organizationName: 'kadena-docs',
@@ -27,7 +27,7 @@ const config: Config = {
                'classic',
                {
                     docs: {
-                         routeBasePath: '/docs',
+                         routeBasePath: '/docs/',
                          sidebarPath: './sidebars.ts',
                          editUrl: 'https://github.com/kda-community/kadena-docs-new/blob/master/',
                     },
