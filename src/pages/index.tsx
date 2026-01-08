@@ -74,12 +74,12 @@ function GridItem({ href, coverClass, label, summary }: GridItemProps) {
 function DocsGrid() {
 
      const gridItems = [
-          { href: '/quickstart', coverClass: 'quick-start', label: 'Quick Start', summary: 'Start here to set up your development environment and build your first project.' },
-          { href: '/api', coverClass: 'api-ref', label: 'API Reference', summary: 'Connect to API endpoints to interact with smart contracts and the Kadena blockchain network.' },
-          { href: '/reference', coverClass: 'function-ref', label: 'Function Reference', summary: 'Get fast access to Pact built-in functions to perform many types of common programming tasks.' },
-          { href: '/smart-contract-dev', coverClass: 'smart-contracts', label: 'Smart Contracts', summary: 'Learn how to write smart contracts using the Pact smart contract programming language.' },
-          { href: '/guides', coverClass: 'howto-guides', label: 'How-To Guides', summary: 'Follow the examples in the how-to guides to learn patterns for how to perform common tasks.' },
-          { href: '/resources', coverClass: 'resources', label: 'Resources', summary: 'Find resources to learn more about blockchain technology and being part of the Kadena community.' },
+          { href: 'quickstart', coverClass: 'quick-start', label: 'Quick Start', summary: 'Start here to set up your development environment and build your first project.' },
+          { href: 'api', coverClass: 'api-ref', label: 'API Reference', summary: 'Connect to API endpoints to interact with smart contracts and the Kadena blockchain network.' },
+          { href: 'reference', coverClass: 'function-ref', label: 'Function Reference', summary: 'Get fast access to Pact built-in functions to perform many types of common programming tasks.' },
+          { href: 'smart-contract-dev', coverClass: 'smart-contracts', label: 'Smart Contracts', summary: 'Learn how to write smart contracts using the Pact smart contract programming language.' },
+          { href: 'guides', coverClass: 'howto-guides', label: 'How-To Guides', summary: 'Follow the examples in the how-to guides to learn patterns for how to perform common tasks.' },
+          { href: 'resources', coverClass: 'resources', label: 'Resources', summary: 'Find resources to learn more about blockchain technology and being part of the Kadena community.' },
      ];
 
      return (
