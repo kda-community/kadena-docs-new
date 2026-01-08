@@ -44,7 +44,7 @@ find $DOCS_DIR -name "*.md" | while read -r file; do
 
     # change lines 2 to end from ### to ##
     tmp=$(mktemp)
-    sed '1s/^##/#/' "$file" > "$tmp" && mv "$tmp" "$file"
+    sed '2,$s/^###/##/' "$file" > "$tmp" && mv "$tmp" "$file"
 done
 
 # Clean up
