@@ -98,7 +98,7 @@ const config: Config = {
                          position: 'left'
                     },
                     {
-                         href: 'https://github.com/kadena-io',
+                         href: 'https://github.com/kda-community/',
                          position: 'right',
                          className: 'github-link-icon'
                     },
