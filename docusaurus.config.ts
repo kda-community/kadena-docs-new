@@ -27,7 +27,7 @@ const config: Config = {
                'classic',
                {
                     docs: {
-                         routeBasePath: '/docs/',
+                         routeBasePath: '/',
                          sidebarPath: './sidebars.ts',
                          editUrl: 'https://github.com/kda-community/kadena-docs-new/blob/master/',
                     },
