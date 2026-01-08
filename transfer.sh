@@ -39,12 +39,15 @@ done
 echo "Updating markdown files..."
 find $DOCS_DIR -name "*.md" | while read -r file; do
     # change line 1 from ## to #
-    sed -i '' '1s/^##/#/' "$file"
+    tmp=$(mktemp)
+    sed '1s/^##/#/' "$file" > "$tmp" && mv "$tmp" "$file"
+
     # change lines 2 to end from ### to ##
-    sed -i '' '2,$s/^###/##/' "$file"
+    tmp=$(mktemp)
+    sed '1s/^##/#/' "$file" > "$tmp" && mv "$tmp" "$file"
 done
 
-# Clean up 
+# Clean up
 echo "Cleaning up..."
 rm -rf $TEMP_DIR
 
