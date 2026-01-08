@@ -82,7 +82,7 @@ const config: Config = {
                          sidebarId: 'default',
                          position: 'left',
                     },
-                    {
+              /*      {
                          label: 'EVM Portal',
                          href: 'https://evm.kadena.io',
                          position: 'left',
@@ -91,7 +91,7 @@ const config: Config = {
                          label: 'Academy',
                          href: 'https://academy.kadena.io',
                          position: 'left',
-                    },
+                    },*/
                     {
                          label: 'Support',
                          href: 'https://discord.com/invite/kadena',

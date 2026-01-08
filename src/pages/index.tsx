@@ -104,7 +104,7 @@ function DocsGrid() {
                     ))}
 
                </div>
-
+          {/*}
                <div className="home-main-academy">
 
                     <span className="home-main-academy-heading">Kadena Academy</span>
@@ -118,7 +118,7 @@ function DocsGrid() {
                     </a>
 
                </div>
-
+          */}
           </main>
 
      );
