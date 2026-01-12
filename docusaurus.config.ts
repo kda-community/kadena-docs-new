@@ -70,8 +70,8 @@ const config: Config = {
                title: '',
                logo: {
                     alt: 'Kadena Documentation',
-                    src: 'img/kadena-docs-light.png',
-                    srcDark: 'img/kadena-docs-dark.png',
+                    src: 'img/kadena-docs-light.svg',
+                    srcDark: 'img/kadena-docs-dark.svg',
                     width: 196,
                     height: 32,
                },
@@ -108,7 +108,7 @@ const config: Config = {
           },
           footer: {
                style: 'dark',
-               copyright: `Copyright © ${new Date().getFullYear()} - Kadena LLC (<a href="https://www.kadena.io/privacy-policy" target="_blank">Privacy</a>)`,
+               copyright: `Copyright © ${new Date().getFullYear()} - Kadena Community Edition`,
           },
           prism: {
                additionalLanguages: ['lisp'],
