@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
      title: 'Kadena Docs',
      tagline: 'The Blockchain for Business',
-     favicon: 'img/kadena-favicon.png',
+     favicon: 'img/kadena-favicon.svg',
      url: 'https://kda-chain.org/',
      baseUrl: '/docs/',
      trailingSlash: false,
