@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -82,16 +82,16 @@ const config: Config = {
                          sidebarId: 'default',
                          position: 'left',
                     },
-              /*      {
-                         label: 'EVM Portal',
-                         href: 'https://evm.kadena.io',
-                         position: 'left',
-                    },
-                    {
-                         label: 'Academy',
-                         href: 'https://academy.kadena.io',
-                         position: 'left',
-                    },*/
+                    /*      {
+                               label: 'EVM Portal',
+                               href: 'https://evm.kadena.io',
+                               position: 'left',
+                          },
+                          {
+                               label: 'Academy',
+                               href: 'https://academy.kadena.io',
+                               position: 'left',
+                          },*/
                     {
                          label: 'Support',
                          href: 'https://discord.com/invite/kadena',
@@ -108,7 +108,7 @@ const config: Config = {
           },
           footer: {
                style: 'dark',
-               copyright: `Copyright © ${new Date().getFullYear()} - Kadena Community Edition`,
+               copyright: `Copyright © ${new Date().getFullYear()} - <a href="#" class="footer-brand-link">Kadena Community Edition</a>`,
           },
           prism: {
                additionalLanguages: ['lisp'],

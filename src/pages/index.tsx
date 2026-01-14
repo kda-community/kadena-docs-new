@@ -53,7 +53,7 @@ function GridItem({ href, coverClass, label, summary }: GridItemProps) {
 
           <a className="home-main-sections-item" href={href}>
 
-               <div className={`home-main-sections-item-cover ${coverClass}`}></div>
+
 
                <div className="home-main-sections-item-content">
 
@@ -104,7 +104,7 @@ function DocsGrid() {
                     ))}
 
                </div>
-          {/*}
+               {/*}
                <div className="home-main-academy">
 
                     <span className="home-main-academy-heading">Kadena Academy</span>
@@ -129,7 +129,7 @@ function DocsGrid() {
 
 export default function Home(): JSX.Element {
 
-     const {siteConfig} = useDocusaurusContext();
+     const { siteConfig } = useDocusaurusContext();
 
      return (
 

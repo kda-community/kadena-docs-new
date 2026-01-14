@@ -50,7 +50,7 @@ const CookieConsentBanner: React.FC = () => {
           onDecline={handleDecline}
           cookieName="CookieConsent"
           style={{ background: "#2B373B", fontSize: "15px" }}
-          buttonStyle={{ color: "#ffffff", fontSize: "13px", background: "#469279" }}
+          buttonStyle={{ color: "#ffffff", fontSize: "13px", background: "#3498db" }}
           declineButtonStyle={{ color: "#ffffff", fontSize: "13px", background: "#888888" }}
         >
           We use cookies to enhance your experience. By continuing to browse, you consent to our use of analytics cookies.
