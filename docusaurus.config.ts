@@ -44,6 +44,14 @@ const config: Config = {
                disableSwitch: false,
                respectPrefersColorScheme: true
           },
+          announcementBar: {
+               id: 'announcement_bar',
+               content:
+                    '⭐️ Welcome to the new Kadena Docs! <a target="_blank" rel="noopener noreferrer" href="https://github.com/kda-community/kadena-docs-new">Give us a star on GitHub</a>',
+               backgroundColor: 'var(--k-action)',
+               textColor: '#ffffff',
+               isCloseable: true,
+          },
           image: 'img/kadena-opengraph.png',
           tableOfContents: {
                minHeadingLevel: 2,

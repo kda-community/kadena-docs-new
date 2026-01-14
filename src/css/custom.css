@@ -277,7 +277,7 @@ nav.navbar .navbar__link {
    display: grid;
    grid-template-columns: 20vw 1fr 20vw;
    text-align: center;
-   margin: 12.5vw 0;
+   margin: clamp(3rem, 10vw, 8rem) 0;
 }
 
 .home-header-title {
@@ -899,4 +899,82 @@ html[data-theme='dark'] .home-header-algolia .DocSearch-Button {
       border: 1.5px solid var(--k-primary) !important;
    }
 
+}
+
+/* CUSTOM FOOTER STYLES */
+
+.custom-footer {
+   margin-top: auto;
+   border-top: 1px solid var(--k-accent);
+   background-color: var(--k-light-0);
+   transition: background-color 0.3s ease;
+   z-index: 10;
+   position: relative;
+}
+
+html[data-theme='dark'] .custom-footer {
+   background-color: var(--k-dark-3);
+   border-color: var(--k-dark-2);
+}
+
+.footer-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1.5rem;
+   padding: 2rem 1rem;
+   width: 100%;
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
+.footer-socials {
+   display: flex;
+   align-items: center;
+   gap: 1.5rem;
+}
+
+.footer-social-link {
+   color: var(--k-base);
+   /* Gray-400 equivalent */
+   transition: color 0.3s ease;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+html[data-theme='dark'] .footer-social-link {
+   color: #9ca3af;
+   /* Gray-400 */
+}
+
+.footer-social-link:hover {
+   color: var(--k-action) !important;
+}
+
+.footer-social-icon {
+   width: 1.5rem;
+   /* w-6 ~ 24px */
+   height: 1.5rem;
+}
+
+.footer-copyright-wrapper {
+   text-align: center;
+}
+
+.footer-copyright {
+   display: block;
+   font-size: 0.875rem;
+   /* text-sm */
+   color: var(--k-base);
+}
+
+html[data-theme='dark'] .footer-copyright {
+   color: #9ca3af;
+}
+
+.footer-brand-link:hover {
+   color: var(--k-action) !important;
+   text-decoration: none;
 }
