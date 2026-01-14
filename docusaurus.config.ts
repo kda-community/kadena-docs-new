@@ -37,7 +37,67 @@ const config: Config = {
                } satisfies Preset.Options,
           ],
      ],
-
+     plugins: [
+          [
+               '@docusaurus/plugin-pwa',
+               {
+                    debug: true,
+                    offlineModeActivationStrategies: [
+                         'appInstalled',
+                         'standalone',
+                         'queryString',
+                    ],
+                    pwaHead: [
+                         {
+                              tagName: 'link',
+                              rel: 'icon',
+                              href: '/img/kadena-favicon.svg',
+                         },
+                         {
+                              tagName: 'link',
+                              rel: 'manifest',
+                              href: '/manifest.json',
+                         },
+                         {
+                              tagName: 'meta',
+                              name: 'theme-color',
+                              content: '#3498db',
+                         },
+                         {
+                              tagName: 'meta',
+                              name: 'apple-mobile-web-app-capable',
+                              content: 'yes',
+                         },
+                         {
+                              tagName: 'meta',
+                              name: 'apple-mobile-web-app-status-bar-style',
+                              content: '#000',
+                         },
+                         {
+                              tagName: 'link',
+                              rel: 'apple-touch-icon',
+                              href: '/img/kadena-favicon.svg',
+                         },
+                         {
+                              tagName: 'link',
+                              rel: 'mask-icon',
+                              href: '/img/kadena-favicon.svg',
+                              color: '#3498db',
+                         },
+                         {
+                              tagName: 'meta',
+                              name: 'msapplication-TileImage',
+                              content: '/img/kadena-favicon.svg',
+                         },
+                         {
+                              tagName: 'meta',
+                              name: 'msapplication-TileColor',
+                              content: '#000',
+                         },
+                    ],
+               },
+          ],
+     ],
      themeConfig: {
           colorMode: {
                defaultMode: 'light',
