@@ -64,9 +64,9 @@ const config: Config = {
                },
           },
           algolia: {
-               appId: '6UVWQF4IS8',
-               apiKey: 'b89b66367ee8fd13c34fb502b67609be',
-               indexName: 'enterprise-kadena',
+               appId: 'PPD6C361A0',
+               apiKey: '3e775f41809b2bd0d8f7febb2d335427',
+               indexName: 'Doc site',
 
                contextualSearch: true,
                externalUrlRegex: 'external\\.com|domain\\.com',
