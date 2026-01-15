@@ -201,6 +201,32 @@ nav.navbar .github-link-icon {
    margin-right: 15px;
 }
 
+nav.navbar {
+   backdrop-filter: blur(12px);
+   -webkit-backdrop-filter: blur(12px);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 996px) {
+   nav.navbar {
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+      background: var(--k-primary) !important;
+   }
+
+   html[data-theme='light'] nav.navbar {
+      background: var(--k-light-0) !important;
+   }
+}
+
+html[data-theme='dark'] nav.navbar {
+   background: rgba(39, 39, 39, 0.8) !important;
+}
+
+html[data-theme='light'] nav.navbar {
+   background: rgba(255, 255, 255, 0.85) !important;
+}
+
 nav.navbar svg[class*="iconExternalLink"] {
    color: var(--k-action);
    margin-left: 10px;
@@ -255,6 +281,10 @@ nav.navbar .navbar__link {
    box-shadow: none !important;
 }
 
+.DocSearch-Container {
+   z-index: 10000 !important;
+}
+
 .home-section-heading {
    font-size: 45px;
    font-weight: 700;
@@ -284,6 +314,11 @@ nav.navbar .navbar__link {
    font-size: 80px;
    font-weight: 750;
    line-height: 1.1;
+   background: linear-gradient(135deg, var(--k-action) 0%, #5dade2 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   text-fill-color: transparent;
 }
 
 .home-header-excerpt {
@@ -291,6 +326,14 @@ nav.navbar .navbar__link {
    font-size: 20px;
    font-weight: 475;
    margin-bottom: 50px;
+}
+
+/* Force placeholder visibility on mobile for Hero Search */
+.home-header-algolia .DocSearch-Button-Placeholder {
+   display: flex !important;
+   font-size: 1rem;
+   font-weight: 500;
+   color: var(--k-base);
 }
 
 .home-header-algolia .DocSearch-Button {
@@ -385,8 +428,9 @@ html[data-theme='dark'] .home-main-sections-item {
 
 .home-main-sections-item:hover {
    text-decoration: none;
-   transform: translateY(-5px);
-   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+   transform: translateY(-8px);
+   border-color: var(--k-action) !important;
+   box-shadow: 0 15px 30px -10px rgba(52, 152, 219, 0.4);
 }
 
 .home-main-sections-item:hover .home-main-sections-item-label {

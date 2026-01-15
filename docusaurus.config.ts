@@ -127,7 +127,7 @@ const config: Config = {
                apiKey: '3e775f41809b2bd0d8f7febb2d335427',
                indexName: 'Doc site',
 
-               contextualSearch: true,
+               contextualSearch: false,
                externalUrlRegex: 'external\\.com|domain\\.com',
                searchParameters: {},
                searchPagePath: 'search',
