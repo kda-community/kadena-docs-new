@@ -78,9 +78,26 @@ footer.footer--dark {
    font-size: 14.5px;
 }
 
+
 .footer-consent-link {
    text-align: center;
-   padding-bottom: 15px;
+   padding-bottom: 25px;
+   /* Slightly increased bottom padding for overall page */
+   margin-top: -10px;
+   /* Pull closer to the main footer */
+}
+
+.footer-external-link {
+   font-size: 13px;
+   color: inherit;
+   text-decoration: underline;
+   transition: color 0.2s ease;
+}
+
+.footer-external-link:hover {
+   color: #63e038 !important;
+   /* Green hover */
+   text-decoration: underline;
 }
 
 .footer-consent-link button {
@@ -89,6 +106,7 @@ footer.footer--dark {
    text-decoration: underline;
    cursor: pointer;
    font-size: 13px;
+   color: inherit;
 }
 
 .footer-brand-link {

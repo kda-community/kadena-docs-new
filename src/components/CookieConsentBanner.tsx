@@ -58,6 +58,8 @@ const CookieConsentBanner: React.FC = () => {
       )}
 
       <div className="footer-consent-link">
+        <a href="https://kda-chain.org/index.html" target="_blank" rel="noopener noreferrer" className="footer-external-link">kda-chain.org</a>
+        <span style={{ margin: '0 10px', color: 'var(--k-base)' }}>|</span>
         <button onClick={clearConsent}>
           Analytics Consent
         </button>
