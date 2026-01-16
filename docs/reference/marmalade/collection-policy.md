@@ -10,7 +10,7 @@ sidebar_position: 1
 The collection policy implements the `kip.token-policy-v2` interface to simplify how you can organize tokens into collections.
 This part of the documentation describes the functions and capabilities defined in the collection policy contract.
 
-Source code: [collection-policy.pact](https://github.com/kadena-io/marmalade/blob/main/pact/concrete-policies/collection-policy/collection-policy-v1.pact)
+Source code: [collection-policy.pact](https://github.com/kda-community/marmalade/blob/main/pact/concrete-policies/collection-policy/collection-policy-v1.pact)
 
 ## Schemas and tables
 

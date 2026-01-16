@@ -23,7 +23,7 @@ Before you start this tutorial, verify the following basic requirements:
 - You have a code editor, such as [Visual Studio Code](https://code.visualstudio.com/download), access to an interactive terminal shell, and are generally familiar with using command-line programs.
 - You have [Git](https://git-scm.com/downloads) installed and are generally familiar with using `git` commands.
 - You have [Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs/) and [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed on your local computer.
-- You have [Pact](https://github.com/kadena-io/pact#installing-pact) and the [Pact language server plugin](https://github.com/kadena-io/pact-lsp/releases) installed on your local computer.
+- You have [Pact](https://github.com/kda-community/pact#installing-pact) and the [Pact language server plugin](https://github.com/kda-community/pact-lsp/releases) installed on your local computer.
 
 ## Clone the project repository
 
@@ -61,7 +61,7 @@ If you use a different code editor, you might also benefit from having the `pact
 
 To use the Pact extension in Visual Studio Code:
 
-1. Download and install [Pact](https://github.com/kadena-io/pact#installing-pact).
+1. Download and install [Pact](https://github.com/kda-community/pact#installing-pact).
    
    For example, you can install Pact on macOS using Homebrew:
 
@@ -69,7 +69,7 @@ To use the Pact extension in Visual Studio Code:
    brew install kadena-io/pact/pact
    ```
 
-2. Download and install the [Pact Language Server plugin](https://github.com/kadena-io/pact-lsp/releases).
+2. Download and install the [Pact Language Server plugin](https://github.com/kda-community/pact-lsp/releases).
 
 3. Open the `election-workshop` folder in Visual Studio Code.
    

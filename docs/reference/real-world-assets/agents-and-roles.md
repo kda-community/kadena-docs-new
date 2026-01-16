@@ -7,7 +7,7 @@ sidebar_position: 3
 
 # Agents and roles
 
-The `mvp-token` contract implements the [`agent-role-v1`](https://github.com/kadena-io/RWA-token/blob/main/contracts/roles/agent-role-v1.pact) interface.
+The `mvp-token` contract implements the [`agent-role-v1`](https://github.com/kda-community/RWA-token/blob/main/contracts/roles/agent-role-v1.pact) interface.
 The interface defines the core capabilities and function signatures for adding and managing agents that have permission to perform protected contract operations. 
 The `mvp-token` contract extends the `agent-role-v1` interface by defining additional capabilities and functions to complement the core capabilities and function signatures.
 
@@ -45,7 +45,7 @@ The `mvp-token` contract defines the following functions:
 
 ## Agent role interface
 
-The [agent-role](https://github.com/kadena-io/RWA-token/blob/main/contracts/roles/agent-role-v1.pact) interface describes the core capabilities and function signatures for managing agents and roles.
+The [agent-role](https://github.com/kda-community/RWA-token/blob/main/contracts/roles/agent-role-v1.pact) interface describes the core capabilities and function signatures for managing agents and roles.
 At a minimum, the `mvp-token` contract must implement all of the capabilities and functions included in the interface.
 
 ### Event capabilities

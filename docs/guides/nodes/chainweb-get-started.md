@@ -60,7 +60,7 @@ For more information about your installation options, see the following topics:
 
 ## Install release binaries
 
-You can download compressed archive files with `chainweb-node` release binaries for Ubuntu Linux directly from the [Releases](https://github.com/kadena-io/chainweb-node/releases) page in the [chainweb-node](https://github.com/kadena-io/chainweb-node/) repository.
+You can download compressed archive files with `chainweb-node` release binaries for Ubuntu Linux directly from the [Releases](https://github.com/kda-community/chainweb-node/releases) page in the [chainweb-node](https://github.com/kda-community/chainweb-node/) repository.
 If you have Ubuntu 20.04 or Ubuntu 22.04 on a physical or virtual machine, downloading the binary is the most straightforward installation path.
 
 To install from a release archive:
@@ -81,7 +81,7 @@ To install from a release archive:
 
    If your computer uses the Ubuntu 20.04 operating system, install the `libssl1.1` package instead of the `libssl3` package. 
 
-4. Download the archive file from the [Releases](https://github.com/kadena-io/chainweb-node/releases) page.
+4. Download the archive file from the [Releases](https://github.com/kda-community/chainweb-node/releases) page.
    
    Note that the archive file naming convention includes the `chainweb-node` version, compiler version, Ubuntu version, and a commit hash identifier using the following format:
    
@@ -101,7 +101,7 @@ To install from a release archive:
    Shutting down. This version of chainweb was only valid until2024-08-21 00:00:00 UTC. Please upgrade to a new version.
    ```
 
-   Be sure to check the [chainweb-node](https://github.com/kadena-io/chainweb-node/) repository for the latest release.
+   Be sure to check the [chainweb-node](https://github.com/kda-community/chainweb-node/) repository for the latest release.
 
 5. Change to the directory that contains the downloaded file—typically, the Downloads folder—or move the file to a new location.
 
@@ -179,7 +179,7 @@ To run `chainweb-node` in a Docker container:
 
 ## Build from source
 
-In most cases, you should run Chainweb nodes using officially released `chainweb-node` binaries or from the binary packaged in officially released Docker images that you can download from the [Releases](https://github.com/kadena-io/chainweb-node/releases) page. 
+In most cases, you should run Chainweb nodes using officially released `chainweb-node` binaries or from the binary packaged in officially released Docker images that you can download from the [Releases](https://github.com/kda-community/chainweb-node/releases) page. 
 However, if you choose to build the chainweb-node binary yourself, you should first ensure that you have an officially released and tagged version of the source code. 
 Tagged versions of the source code are tested extensively to ensure that they are compatible with all nodes in the Chainweb network.
 
@@ -189,7 +189,7 @@ You shouldn't build `chainweb-node` from the `master` branch if you plan to run 
 
 To download tagged source code:
 
-1. Open the [Releases](https://github.com/kadena-io/chainweb-node/releases) page.
+1. Open the [Releases](https://github.com/kda-community/chainweb-node/releases) page.
 
 2. Download the compressed archive for your working environment:
 
@@ -433,7 +433,7 @@ For example, you can edit the configuration file to make the following types of 
 - Enable the backup API and specify the directory for backup files.
 - Connect the node to the Kadena test network instead of the Kadena main network.
 - Specify a directory for blockchain database files.
-- Ignore or connect to a subset of [bootstrap nodes](https://github.com/kadena-io/chainweb-node?tab=readme-ov-file#bootstrap-nodes).
+- Ignore or connect to a subset of [bootstrap nodes](https://github.com/kda-community/chainweb-node?tab=readme-ov-file#bootstrap-nodes).
 
 To edit the node configuration:
 

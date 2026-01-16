@@ -87,7 +87,7 @@ For more information about how to implement the sale contract interface or creat
 ## Policies
 
 Individual policies give you granular control over token properties and token-related activity, including minting, burning, transferring, and buying tokens.
-Token policies are implemented as smart contracts based on the interfaces defined in the [`kip.token-policy-v2`](https://github.com/kadena-io/marmalade/blob/main/pact/kip/token-policy-v2.pact) standard.
+Token policies are implemented as smart contracts based on the interfaces defined in the [`kip.token-policy-v2`](https://github.com/kda-community/marmalade/blob/main/pact/kip/token-policy-v2.pact) standard.
 There are several built-in policies—called **concrete policies**—that are configured to handle the most common marketplace use cases. 
 
 The built-in concrete policies are officially released and maintained to provide ready-to-use implementations of common features that don't require any custom development work.
@@ -104,7 +104,7 @@ The concrete policies currently available provide the following features:
   If the `collection-policy` is applied to a token, the token is identified as part of a collection and can be discovered as an item in a toke list.
 
 You can also create **custom policies** to implement unique rules or enforce specific behavior not covered by the concrete policies.
-You can find examples of custom policies in the [examples/policies](https://github.com/kadena-io/marmalade/tree/main/examples/policies) repository.
+You can find examples of custom policies in the [examples/policies](https://github.com/kda-community/marmalade/tree/main/examples/policies) repository.
 
 Example policies aren't officially released and maintained, but can be useful models for developing your own custom policies.
 If an example or custom policy seems broadly useful to a general audience, it can be promoted to a concrete policy, contributing to the overall evolution of the Marmalade marketplace.

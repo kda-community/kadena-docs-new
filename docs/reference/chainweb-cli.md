@@ -49,7 +49,7 @@ Remote URLs must start with either "http://" or "https://". |
 | --disable-tx-reintro | Unset the `--enable-tx-reintro` option and prevent transactions from losing forks to be resubmitted. |
 | --enable-reset-chain-databases | Reset chain databases when the node starts. |
 | --disable-reset-chain-databases | Disable resetting of chain databases when the node starts. |
-| --reorg-limit _max_ | Specify the maximum allowed reorganization depth. For more information, see [Recovering from deep forks](https://github.com/kadena-io/chainweb-node/blob/master/docs/RecoveringFromDeepForks.md).|
+| --reorg-limit _max_ | Specify the maximum allowed reorganization depth. For more information, see [Recovering from deep forks](https://github.com/kda-community/chainweb-node/blob/master/docs/RecoveringFromDeepForks.md).|
 | --pre-insert-check-timeout _microseconds_ | Specify the maximum number of microseconds allowed for the transactions validation in the PreInsertCheck command.|
 | --allowReadsInLocal | Enable direct database reads of smart contract tables in local queries.|
 | --no-allowReadsInLocal | Disable direct database reads of smart contract tables in local queries.|

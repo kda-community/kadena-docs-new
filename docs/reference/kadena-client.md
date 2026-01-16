@@ -741,7 +741,7 @@ const [txOneSigned, txTwoSigned] = signWithChainweaver([txOne, txTwo]);
 
 ### WalletConnect
 
-The WalletConnect protocol and helper functions are based on [KIP-017](https://github.com/kadena-io/KIPs/blob/master/kip-0017.md). You must use the WalletConnect protocol to create a walletConnect client and session before you can use the helper functions to sign transactions.
+The WalletConnect protocol and helper functions are based on [KIP-017](https://github.com/kda-community/KIPs/blob/master/kip-0017.md). You must use the WalletConnect protocol to create a walletConnect client and session before you can use the helper functions to sign transactions.
 
 #### Wallet Connect sign method
 

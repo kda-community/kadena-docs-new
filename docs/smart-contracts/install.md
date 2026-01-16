@@ -40,7 +40,7 @@ You can choose to download and install either the latest, stable version of Pact
   For more information about Pact 5, see the following resources:
 
   - [Migrating to Pact 5](/smart-contracts/install/migrating-to-pact5)
-  - [Pact 5 repository](https://github.com/kadena-io/pact-5)
+  - [Pact 5 repository](https://github.com/kda-community/pact-5)
   - [Pact 5 Beta: Improving Developer, Miner, and User Experience](https://www.kadena.io/perspectives/pact-5-beta)
 
 ## Installation options
@@ -52,10 +52,10 @@ The installation instructions in this section describe how to install Pact local
 
 To build Pact binaries directly from source, see the instructions in the appropriate repository:
 
-- [Pact 5](https://github.com/kadena-io/pact-5)
-- [Pact 4.x](https://github.com/kadena-io/pact?tab=readme-ov-file#building-from-source)
+- [Pact 5](https://github.com/kda-community/pact-5)
+- [Pact 4.x](https://github.com/kda-community/pact?tab=readme-ov-file#building-from-source)
 
 <!--
-To build Pact binaries directly from source, download the source code from [Pact Releases](https://github.com/kadena-io/pact/releases), then use Homebrew, Cabal from the Haskell toolchain, or the Nix package manager to build Pact. 
-For more information about the dependencies and tools for building from the source code, see [Building from source](https://github.com/kadena-io/pact?tab=readme-ov-file#building-from-source).
+To build Pact binaries directly from source, download the source code from [Pact Releases](https://github.com/kda-community/pact/releases), then use Homebrew, Cabal from the Haskell toolchain, or the Nix package manager to build Pact. 
+For more information about the dependencies and tools for building from the source code, see [Building from source](https://github.com/kda-community/pact?tab=readme-ov-file#building-from-source).
 -->

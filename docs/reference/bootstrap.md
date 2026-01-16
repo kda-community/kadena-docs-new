@@ -24,8 +24,8 @@ If you're a node operator and would like to have your Chainweb node included as 
 
 To become a bootstrap node operator:
 
-1. Fork the [chainweb-node](https://github.com/kadena-io/chainweb-node) repository.
-2. Add your node information to the [chainweb-node/src/P2P/BootstrapNodes](https://github.com/kadena-io/chainweb-node/blob/master/src/P2P/BootstrapNodes.hs) module.
+1. Fork the [chainweb-node](https://github.com/kda-community/chainweb-node) repository.
+2. Add your node information to the [chainweb-node/src/P2P/BootstrapNodes](https://github.com/kda-community/chainweb-node/blob/master/src/P2P/BootstrapNodes.hs) module.
 3. Create a pull request to have your change reviewed and approved. 
 
 ## Testnet bootstrap nodes

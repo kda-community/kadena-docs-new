@@ -10,7 +10,7 @@ sidebar_position: 6
 The non-fungible policy ensures the uniqueness of digital assets.
 If you apply this policy to a token, the policy guarantees that the token supply is one with a precision of zero.
 
-Source code: [non-fungible-policy.pact](https://github.com/kadena-io/marmalade/blob/main/pact/concrete-policies/non-fungible-policy/non-fungible-policy-v1.pact)
+Source code: [non-fungible-policy.pact](https://github.com/kda-community/marmalade/blob/main/pact/concrete-policies/non-fungible-policy/non-fungible-policy-v1.pact)
 
 ## Capabilities
 

@@ -14,9 +14,9 @@ The policy manager provides the following key features:
 - Consistent and predictable policy enforcement.
 - The ability to stack multiple policies to craft the exact behavior requirement for every token.
 - A standardized interface for all policies through
-    [`kip.token-policy-v2`](https://github.com/kadena-io/marmalade/blob/main/pact/kip/token-policy-v2.pact).
+    [`kip.token-policy-v2`](https://github.com/kda-community/marmalade/blob/main/pact/kip/token-policy-v2.pact).
 
-Source code: [policy-manager.pact](https://github.com/kadena-io/marmalade/blob/main/pact/policy-manager/policy-manager.pact)
+Source code: [policy-manager.pact](https://github.com/kda-community/marmalade/blob/main/pact/policy-manager/policy-manager.pact)
 
 ## Tables and schemas
 

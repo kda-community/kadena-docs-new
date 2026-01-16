@@ -7,7 +7,7 @@ sidebar_position: 4
 
 # Identity registry
 
-The `mvp-token` contract implements the [`identity-registry-v1`](https://github.com/kadena-io/RWA-token/blob/main/contracts/registry/identity-registry-v1.pact) interface.
+The `mvp-token` contract implements the [`identity-registry-v1`](https://github.com/kda-community/RWA-token/blob/main/contracts/registry/identity-registry-v1.pact) interface.
 The interface defines the core capabilities and function signatures for managing investor identities. 
 The `mvp-token` contract extends the `identity-registry-v1` interface by defining additional capabilities and functions to complement the core capabilities and function signatures.
 
@@ -52,7 +52,7 @@ The `mvp-token` contract defines the following functions:
 
 ## Identity registry interface
 
-The [identity registry](https://github.com/kadena-io/RWA-token/blob/main/contracts/registry/identity-registry-v1.pact) interface describes the core capabilities and function signatures for registering and managing investor identities. 
+The [identity registry](https://github.com/kda-community/RWA-token/blob/main/contracts/registry/identity-registry-v1.pact) interface describes the core capabilities and function signatures for registering and managing investor identities. 
 The interface also includes foundational support for identity verification and integration with claim topics and trusted issuers registries.
 At a minimum, the `mvp-token` contract must implement all of the capabilities and functions included in the interface.
 

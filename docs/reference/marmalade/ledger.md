@@ -14,7 +14,7 @@ The ledger contract records and manages all token-related activity to ensure eve
 This part of the documentation describes the functions and capabilities defined in the Marmalade ledger contract in the `marmalade-v2` namespace.
 The  `marmalade-v2` namespace is available on all twenty chains (0-19) in the Kadena test network and the Kadena main network.
 
-Source code: [ledger.pact](https://github.com/kadena-io/marmalade/blob/main/pact/ledger/ledger.pact)
+Source code: [ledger.pact](https://github.com/kda-community/marmalade/blob/main/pact/ledger/ledger.pact)
 
 ## create-token-id
 

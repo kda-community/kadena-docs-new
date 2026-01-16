@@ -7,14 +7,14 @@ sidebar_position: 2
 
 # mvp-token
 
-The [`mvp-token`](https://github.com/kadena-io/RWA-token/blob/main/mvp/mvp-token.pact) contract is an example of a real-world asset (RWA) token that can be configured with custom compliance rules for `mint`, `burn`, and `transfer` operations.
+The [`mvp-token`](https://github.com/kda-community/RWA-token/blob/main/mvp/mvp-token.pact) contract is an example of a real-world asset (RWA) token that can be configured with custom compliance rules for `mint`, `burn`, and `transfer` operations.
 
 This sample contract implements Kadena RWA token standard interfaces that are defined in the following modules:
 
-- [real-world-asset-v1](https://github.com/kadena-io/RWA-token/blob/main/contracts/real-world-asset/real-world-asset-v1.pact)
-- [agent-role-v1](https://github.com/kadena-io/RWA-token/blob/main/contracts/roles/agent-role-v1.pact)
-- [identity-registry-v1](https://github.com/kadena-io/RWA-token/blob/main/contracts/roles/agent-role-v1.pact)
-- [compliance-compatible-v1](https://github.com/kadena-io/RWA-token/blob/main/mvp/compliances/compliance-compatible-v1.pact)
+- [real-world-asset-v1](https://github.com/kda-community/RWA-token/blob/main/contracts/real-world-asset/real-world-asset-v1.pact)
+- [agent-role-v1](https://github.com/kda-community/RWA-token/blob/main/contracts/roles/agent-role-v1.pact)
+- [identity-registry-v1](https://github.com/kda-community/RWA-token/blob/main/contracts/roles/agent-role-v1.pact)
+- [compliance-compatible-v1](https://github.com/kda-community/RWA-token/blob/main/mvp/compliances/compliance-compatible-v1.pact)
 
 The `mvp-token` contract extends the functionality defined in the Kadena `fungible-v2` interface to demonstrate customized `mint`, `burn`, `transfer`, and `forced-transfer` operations for tokens.
 The contract also provides `pause` and `freeze` functions to demonstrate restricting operations for an entire contract or specific investor accounts. 
@@ -24,9 +24,9 @@ However, the contract doesn't implement identity verification.
 Because the contract implements the `compliance-compatible-v1` interface, you can add one or more compliance contracts to customize the rules for `mint`, `burn`, abd `transfer` operations.
 The `mvp-token` contract provides the following sample compliance contracts to demonstrate practical use cases:
 
-- [max-balance-compliance-v1](https://github.com/kadena-io/RWA-token/blob/main/mvp/compliances/max-balance-compliance-v1.pact)
-- [max-investors-compliance-v1](https://github.com/kadena-io/RWA-token/blob/main/mvp/compliances/max-investors-compliance-v1.pact)
-- [supply-limit-compliance-v1](https://github.com/kadena-io/RWA-token/blob/main/mvp/compliances/supply-limit-compliance-v1.pact)
+- [max-balance-compliance-v1](https://github.com/kda-community/RWA-token/blob/main/mvp/compliances/max-balance-compliance-v1.pact)
+- [max-investors-compliance-v1](https://github.com/kda-community/RWA-token/blob/main/mvp/compliances/max-investors-compliance-v1.pact)
+- [supply-limit-compliance-v1](https://github.com/kda-community/RWA-token/blob/main/mvp/compliances/supply-limit-compliance-v1.pact)
 
 ## Governance
 

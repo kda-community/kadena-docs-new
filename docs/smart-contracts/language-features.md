@@ -327,4 +327,4 @@ Because defpacts enable you to orchestrate a series of transactions in a strict 
 
 With defpacts, you can enable each participant to run only a subset of functions—for example, as a buyer who can make an offer or a seller who can start a sale—while preserving the integrity of the transaction as a whole.
 For more information about defining and using defpacts, see the syntax description for the [`defpact`](/reference/syntax#defpact) reserved keyword.
-For a more detailed example of using `defpact` in a smart contract, see the Marmalade [`ledger`](https://github.com/kadena-io/marmalade/blob/main/pact/ledger/ledger.pact) contract.
+For a more detailed example of using `defpact` in a smart contract, see the Marmalade [`ledger`](https://github.com/kda-community/marmalade/blob/main/pact/ledger/ledger.pact) contract.

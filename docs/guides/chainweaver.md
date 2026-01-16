@@ -18,7 +18,7 @@ You can also use Chainweaver to:
 - Deploy smart contracts on a network.
 - Update previously-deployed contracts.
 
-If you don't already have a Chainweaver account, you should create one using either the [Chainweaver desktop application](https://github.com/kadena-io/chainweaver/releases) or the [Chainweaver web application](https://chainweaver.kadena.network/). After you download and install the desktop application or open Chainweaver in a browser, you can create a wallet and accounts to interact with Kadena networks.
+If you don't already have a Chainweaver account, you should create one using either the [Chainweaver desktop application](https://github.com/kda-community/chainweaver/releases) or the [Chainweaver web application](https://chainweaver.kadena.network/). After you download and install the desktop application or open Chainweaver in a browser, you can create a wallet and accounts to interact with Kadena networks.
 
 When you open and unlock Chainweaver, the navigation panel on the left is collapsed to only display icons by default. The navigation panel provides access to the tools for managing your accounts, keys, and development environment.
 

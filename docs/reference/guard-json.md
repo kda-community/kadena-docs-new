@@ -318,7 +318,7 @@ PvModRef = { "refName":String, "refSpec":Array[ModuleName])
 
 PvTime = { "time" : String } | { "timep" : String }
 // There's specific formatting here depending on the UTC denom.
-// See https://github.com/kadena-io/pact/blob/e72d86749f5d65ac8d6e07a7652dd2ffb468607b/src/Pact/Types/Codec.hs#L150
+// See https://github.com/kda-community/pact/blob/e72d86749f5d65ac8d6e07a7652dd2ffb468607b/src/Pact/Types/Codec.hs#L150
 // for further details.
 
 PvCapToken = { "ctName":String, "ctArgs":Array[PactValue] }

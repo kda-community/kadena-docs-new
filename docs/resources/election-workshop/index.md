@@ -84,10 +84,10 @@ whether your development environment meets the following basic requirements:
   [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
   installed on your local computer.
 - You have access to
-  [Chainweaver](https://github.com/kadena-io/chainweaver/releases) desktop or
+  [Chainweaver](https://github.com/kda-community/chainweaver/releases) desktop or
   web application.
-- You have [Pact](https://github.com/kadena-io/pact#installing-pact) or the
-  [Pact language server plugin](https://github.com/kadena-io/pact-lsp/releases)
+- You have [Pact](https://github.com/kda-community/pact#installing-pact) or the
+  [Pact language server plugin](https://github.com/kda-community/pact-lsp/releases)
   installed on your local computer.
 
 If you have everything you need, let’s start building the election website by

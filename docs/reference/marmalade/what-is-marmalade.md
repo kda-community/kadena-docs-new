@@ -61,7 +61,7 @@ To complete a sale, the `pact` function defines the following steps:
 The Marmalade token standard enables creators to specify **token policies** to control how their assets can be minted, sold, and transferred and how royalties are paid.
 For example, a token policy might specify that an asset can't be transferred directly to a buyer until a purchase is complete and the royalty distributed to the creator.
 
-Token policies are implemented as smart contracts based on the interfaces defined in the [`kip.token-policy-v2`](https://github.com/kadena-io/marmalade/blob/main/pact/kip/token-policy-v2.pact) standard.
+Token policies are implemented as smart contracts based on the interfaces defined in the [`kip.token-policy-v2`](https://github.com/kda-community/marmalade/blob/main/pact/kip/token-policy-v2.pact) standard.
 There are several built-in policies—called **concrete policies**—that are configured to handle the most common marketplace use cases. 
 For example, if you apply the `non-fungible-policy` to a token, the token is automatically configured to be minted only once. 
 
@@ -182,6 +182,6 @@ Any new NFT owner can only resell the NFT using the offer, trustless escrow, and
 ## Creating custom policies
 
 If you find that some combination of concrete policies doesn't meet your needs, you can also use the built-in policies as models for creating your own custom token policies.
-You can find several examples of custom policies in [Marmalade examples](https://github.com/kadena-io/marmalade/tree/main/examples/policies).
+You can find several examples of custom policies in [Marmalade examples](https://github.com/kda-community/marmalade/tree/main/examples/policies).
 
-Like concrete policies, custom policies must adhere to the [`kip.token-policy-v2`](https://github.com/kadena-io/marmalade/blob/v2/pact/kip/token-policy-v2.pact) interface to be valid.
+Like concrete policies, custom policies must adhere to the [`kip.token-policy-v2`](https://github.com/kda-community/marmalade/blob/v2/pact/kip/token-policy-v2.pact) interface to be valid.

@@ -88,7 +88,7 @@ To create a server configuration file:
    verbose: True
    ```
 
-   You can also find the standard format for the Pact server configuration file in the [Pact repository](https://github.com/kadena-io/pact/blob/master/config.yaml).
+   You can also find the standard format for the Pact server configuration file in the [Pact repository](https://github.com/kda-community/pact/blob/master/config.yaml).
    The file provides the following fields to configure settings for the Pact built-in server:
 
    | Use this field | To do this |

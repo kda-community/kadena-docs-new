@@ -284,9 +284,9 @@ pact> (expect-that "addition result is greater than 2" (> 2) (+ 1 2))
 "FAILURE: Expect-that: Did not satisfy condition: addition result is greater than 2"
 ```
 
-You can find additional examples of `.pact` and `.repl` test files in the [pact-examples](https://github.com/kadena-io/pact-examples.git) repository.
+You can find additional examples of `.pact` and `.repl` test files in the [pact-examples](https://github.com/kda-community/pact-examples.git) repository.
 Both the `expect` and `expect-failure` functions enable you to test whether the outcome of an expression is what you expect it to be.
-For example, the [keysets.repl](https://github.com/kadena-io/pact-examples/blob/master/atoz/01-keysets/keysets.repl) demonstrates using the `env-data` function and `expect-failure` function to test use cases that are expected to fail.
+For example, the [keysets.repl](https://github.com/kda-community/pact-examples/blob/master/atoz/01-keysets/keysets.repl) demonstrates using the `env-data` function and `expect-failure` function to test use cases that are expected to fail.
 
 ```pact
 (expect-failure "real keyset should fail"

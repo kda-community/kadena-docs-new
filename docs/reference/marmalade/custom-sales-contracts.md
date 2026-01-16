@@ -12,7 +12,7 @@ As discussed in [Contract architecture](/reference/marmalade/token-standard-arch
 Although this is a flexible system for managing sales, sales-specific contracts must be registered in the policy manager to ensure that the policy manager can enforce the proper collection and distribution of tokens and funds. 
 Before you can register a sales-specific contract, the contract must be reviewed by an auditor to ensure that the contract logic is safe to use.
 
-If you want to create your own sales-specific contract, you can implement the `enforce-quote-update` interface in your contract, then open a pull request in the [Marmalade Github repository](https://github.com/kadena-io/marmalade/tree/main/pact/sale-contracts) to begin the review process.
+If you want to create your own sales-specific contract, you can implement the `enforce-quote-update` interface in your contract, then open a pull request in the [Marmalade Github repository](https://github.com/kda-community/marmalade/tree/main/pact/sale-contracts) to begin the review process.
 
 Note that creating a sales-specific contract isn't necessary in most cases.
 You can implement sales-related logic directly in a policy and attach the policy to a token instead of creating a separate contract.

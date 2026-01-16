@@ -49,7 +49,7 @@ The Kadena development network allows you to run a standalone local blockchain n
 To set up the local network, open a terminal shell on your computer then run the following commands to get the development network Docker image and start the network in a Docker container:
 
 ```bash
-git clone https://github.com/kadena-io/devnet
+git clone https://github.com/kda-community/devnet
 cd devnet
 npm install
 docker run --rm --interactive --tty --publish 8080:8080 --volume kadena_devnet:/data --name devnet kadena/devnet

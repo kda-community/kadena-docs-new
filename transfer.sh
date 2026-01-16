@@ -4,7 +4,7 @@
 # Run with `bash transfer.sh`
 
 # Path Variables
-REPO_URL="https://github.com/kadena-io/pact-5.git"
+REPO_URL="https://github.com/kda-community/pact-5.git"
 TEMP_DIR="temp-pact-5"
 DOCS_DIR="docs/pact-5"
 BUILTINS_DIR="docs/builtins"

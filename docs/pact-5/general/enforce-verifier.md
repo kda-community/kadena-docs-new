@@ -4,7 +4,7 @@ Use `enforce-verifier` to enforce that a verifier plugin with the specified `ver
 
 Note that verifier plugins aren't implemented as Pact code.
 Instead, implementing a verifier plugin requires changes to the Chainweb protocol.
-For information about the design and implementation of verifier plugins, see [KIP-0028: Pact Verifier Plugins](https://github.com/kadena-io/KIPs/blob/master/kip-0028.md).
+For information about the design and implementation of verifier plugins, see [KIP-0028: Pact Verifier Plugins](https://github.com/kda-community/KIPs/blob/master/kip-0028.md).
 
 ## Basic syntax
 

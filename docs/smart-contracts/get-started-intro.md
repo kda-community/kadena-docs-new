@@ -113,9 +113,9 @@ For recommendation regarding writing style, documentation conventions, and topic
 
 ### Contribute to the codebase
 
-The Kadena codebase is open source and hosted on GitHub in repositories under two organizations: [kadena-io](https://github.com/kadena-io) and [kadena-community](https://github.com/kadena-community).
+The Kadena codebase is open source and hosted on GitHub in repositories under two organizations: [kadena-io](https://github.com/kda-community) and [kadena-community](https://github.com/kadena-community).
 
-- Repositories in [kadena-io](https://github.com/kadena-io) are focused on the Kadena network infrastructure and foundational components like [chainweb-node](https://github.com/kadena-io/chainweb-node) and [pact](https://github.com/kadena-io/pact).
+- Repositories in [kadena-io](https://github.com/kda-community) are focused on the Kadena network infrastructure and foundational components like [chainweb-node](https://github.com/kda-community/chainweb-node) and [pact](https://github.com/kda-community/pact).
 
 - Repositories in [kadena-community](https://github.com/kadena-community) are focused on tooling and projects to help developers build applications on the Kadena network like the TypeScript libraries in [kadena.js](https://github.com/kadena-community/kadena.js).
 

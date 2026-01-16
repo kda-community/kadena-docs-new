@@ -80,7 +80,7 @@ Wallet applications often make interacting with blockchain networks, accounts, a
 You must have at least one account on the development network to complete the election workshop.
 If you have public and private keys for testing, you can add them to the development environment using the `kadena account add` command.
 
-If you don't already have an account, you can create one using the [Chainweaver desktop application](https://github.com/kadena-io/chainweaver/releases), the [Chainweaver web application](https://chainweaver.kadena.network/), or `kadena-cli` commands.
+If you don't already have an account, you can create one using the [Chainweaver desktop application](https://github.com/kda-community/chainweaver/releases), the [Chainweaver web application](https://chainweaver.kadena.network/), or `kadena-cli` commands.
 
 To create an account using `kadena-cli` commands:
 

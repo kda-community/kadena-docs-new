@@ -567,7 +567,7 @@ cope-pay.repl:14:4: Keyset failure (keys-all): [alice...]
   at(accounts.pay.{z5Kc3VKBgIr085VLRK2n1rMdlmIxi-NN-P7lYfA6xqg} "alice" "bob" 10.0):scope-pay.repl:40:0-40:33
 ```
 
-Scoped capabilities can also be installed by [_verifier plug-ins_](https://github.com/kadena-io/KIPs/pull/57).
+Scoped capabilities can also be installed by [_verifier plug-ins_](https://github.com/kda-community/KIPs/pull/57).
 Capabilities that are installed by verifier plug-ins are also scoped to the specific capabilities that they install.
 Verifier plugins are external to Pact.
 However, they are similar to signature capabilities in that they enable you to specify some type of trusted entity—for example, a signature or a generated proof—that grants the capabilities to perform some type of protected operation.

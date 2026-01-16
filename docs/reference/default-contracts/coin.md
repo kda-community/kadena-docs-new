@@ -6,7 +6,7 @@ id: coin
 
 # coin
 
-The default [`coin`](https://github.com/kadena-io/chainweb-node/blob/master/pact/coin-contract/v5/coin-v5.pact) module represents the native Kadena token contract.
+The default [`coin`](https://github.com/kda-community/chainweb-node/blob/master/pact/coin-contract/v5/coin-v5.pact) module represents the native Kadena token contract.
 The `coin` module provides the core functions, capabilities, and interfaces for managing gas operations,accounts information, and asset transfers in the Kadena blockchain account ledger.
 The contract supports single chain and cross-chain transfers with functions for the following operations:
 

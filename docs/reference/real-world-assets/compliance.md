@@ -15,7 +15,7 @@ The sample compliance contracts define the following compliance rules:
 - Maximum balance allowed for each investor (`max-balance-compliance-v1`).
 - Maximum number of investors allowed (`max-investors-compliance-v1`).
 
-Each sample compliance contract implements the [`compliance-v1`](https://github.com/kadena-io/RWA-token/blob/main/contracts/compliance/compliance-v1.pact) interface.
+Each sample compliance contract implements the [`compliance-v1`](https://github.com/kda-community/RWA-token/blob/main/contracts/compliance/compliance-v1.pact) interface.
 The interface defines the core capabilities and function signatures for binding and unbinding tokens to the contract rules and the compliance checks required for different token operations.
 
 ## Capabilities

@@ -99,7 +99,7 @@ For more information about working with other chains, see [Multi-chain support](
 
 After you have a Chainweb EVM testnet account with funds, the next step is to configure your development environment to use the Kadena Chainweb EVM Testnet network. 
 You should note that different smart contract development environments have different requirements and different configuration steps.
-The following steps steps assume you are on using Hardhat, which is a popular Ethereum development framework, and the Kadena Hardhat plugin [@kadena/hardhat-chainweb](https://github.com/kadena-io/hardhat-kadena-plugin) for multi-chain support.
+The following steps steps assume you are on using Hardhat, which is a popular Ethereum development framework, and the Kadena Hardhat plugin [@kadena/hardhat-chainweb](https://github.com/kda-community/hardhat-kadena-plugin) for multi-chain support.
 
 If you are using the Foundry smart contract development toolchain, see the following topics:
 
@@ -111,7 +111,7 @@ Verify that your development environment meets the following basic requirements:
 - You have the [Node.js](https://nodejs.org) runtime environment, [npm](https://www.npmjs.com) or [yarn](https://yarnpkg.com/) package manager, and [npx](https://docs.npmjs.com/cli/v8/commands/npx) installed.
 - You have [Git](https://git-scm.com/downloads) installed for managing your project.
 - You have the private key for the wallet account holding the testnet KDA funds.
-- You have cloned the [kadena-evm-sandbox](https://github.com/kadena-io/kadena-evm-sandbox) so you have access to the files in the sample `solidity` Hardhat project.
+- You have cloned the [kadena-evm-sandbox](https://github.com/kda-community/kadena-evm-sandbox) so you have access to the files in the sample `solidity` Hardhat project.
   You can model testing and deployment for your own Hardhat projects based on the configuration of the `solidity` project.
 
 ### Configure Hardhat settings
@@ -234,10 +234,10 @@ To configure the development environment using Hardhat:
    SimpleToken deployment process completed
    ```
 
-   For a complete example of the Hardhat configuration file, see the [`solidity`](https://github.com/kadena-io/kadena-evm-sandbox/blob/main/solidity/hardhat.config.js) project or [`scaffold-kadena`](https://github.com/0xTrip/scaffold-kadena/blob/main/packages/hardhat/hardhat.config.ts).
+   For a complete example of the Hardhat configuration file, see the [`solidity`](https://github.com/kda-community/kadena-evm-sandbox/blob/main/solidity/hardhat.config.js) project or [`scaffold-kadena`](https://github.com/0xTrip/scaffold-kadena/blob/main/packages/hardhat/hardhat.config.ts).
    The `scaffold-kadena` repository also provides sample scripts for performing many common tasks that simplify project deployment and interacting with a contract after its deployed.
 
-   For more information about the configuration settings and options provided by the Hardhat Chainweb plugin, see [hardhat-kadena-plugin](https://github.com/kadena-io/hardhat-kadena-plugin/blob/main/packages/hardhat-kadena/README.md) or [@kadena/hardhat-chainweb](https://www.npmjs.com/package/@kadena/hardhat-chainweb).
+   For more information about the configuration settings and options provided by the Hardhat Chainweb plugin, see [hardhat-kadena-plugin](https://github.com/kda-community/hardhat-kadena-plugin/blob/main/packages/hardhat-kadena/README.md) or [@kadena/hardhat-chainweb](https://www.npmjs.com/package/@kadena/hardhat-chainweb).
 
 ### Deployer account
 
@@ -264,8 +264,8 @@ To deploy using Hardhat:
     
   For examples of Hardhat deployment scripts, see the following project files:
 
-  - [`solidity/scripts/deploy.js`](https://github.com/kadena-io/kadena-evm-sandbox/blob/main/solidity/scripts/deploy.js)
-  - [`solidity/scripts/deploy-using-create2.js`](https://github.com/kadena-io/kadena-evm-sandbox/blob/main/solidity/scripts/deploy-using-create2.js)
+  - [`solidity/scripts/deploy.js`](https://github.com/kda-community/kadena-evm-sandbox/blob/main/solidity/scripts/deploy.js)
+  - [`solidity/scripts/deploy-using-create2.js`](https://github.com/kda-community/kadena-evm-sandbox/blob/main/solidity/scripts/deploy-using-create2.js)
   - [`scaffold-kadena`](https://github.com/0xTrip/scaffold-kadena/blob/main/packages/hardhat).
     
 1. Wait for confirmation that the transaction has been mined into a block.
@@ -295,7 +295,7 @@ For more information about deploying to more than one chain, see [Multi-chain su
 ### Contract verification
 
 You can use Blockscout or the `@kadena/hardhat-chainweb` plugin to verify contracts on the Kadena Chainweb EVM Testnet.
-You can find examples of how to perform contract verification in the [deploy](https://github.com/kadena-io/kadena-evm-sandbox/blob/bc01d299637d806af3df30518f52f2359ba554b8/solidity/scripts/deploy.js#L52) and [deploy-create2](https://github.com/kadena-io/kadena-evm-sandbox/blob/bc01d299637d806af3df30518f52f2359ba554b8/solidity/scripts/deploy-using-create2.js#L87) scripts for the sample `solidity` project.
+You can find examples of how to perform contract verification in the [deploy](https://github.com/kda-community/kadena-evm-sandbox/blob/bc01d299637d806af3df30518f52f2359ba554b8/solidity/scripts/deploy.js#L52) and [deploy-create2](https://github.com/kda-community/kadena-evm-sandbox/blob/bc01d299637d806af3df30518f52f2359ba554b8/solidity/scripts/deploy-using-create2.js#L87) scripts for the sample `solidity` project.
 
 Note that you must configure the `etherscan` settings in the Hardhat configuration file for contract verification to work.
 

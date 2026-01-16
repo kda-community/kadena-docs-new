@@ -81,8 +81,8 @@ To install Pact on macOS from a compressed archive:
 
 1. Navigate to the appropriate Pact Releases page:
    
-   - [Pact 4 Releases](https://github.com/kadena-io/pact/releases) to download the latest stable version of Pact 4.x. 
-   - [Pact 5 Releases](https://github.com/kadena-io/pact-5/releases) to download the latest version of Pact 5.
+   - [Pact 4 Releases](https://github.com/kda-community/pact/releases) to download the latest stable version of Pact 4.x. 
+   - [Pact 5 Releases](https://github.com/kda-community/pact-5/releases) to download the latest version of Pact 5.
 
 2. Download the latest `pact-<version>-macos-<arch>.tar.gz` file for the macOS operating system and architecture you use.
 
@@ -166,5 +166,5 @@ If you encounter issues, check the following:
 
    Open a new terminal or reload the shell profile to complete the update.
 
-- Check [Pact GitHub Issues](https://github.com/kadena-io/pact/issues) for known issues or to report a problem with installing Pact.
+- Check [Pact GitHub Issues](https://github.com/kda-community/pact/issues) for known issues or to report a problem with installing Pact.
 

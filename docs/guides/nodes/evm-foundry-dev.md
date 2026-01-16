@@ -8,7 +8,7 @@ tags: [evm, foundry, Solidity, chainweb, network, node operator]
 
 # Chainweb EVM Foundry integration
 
-The [foundry-chainweb](https://github.com/kadena-io/foundry-chainweb) package provides utilities to help you use the Foundry smart contract development toolchain to develop, test, and deploy projects on the Kadena Chainweb EVM blockchain.
+The [foundry-chainweb](https://github.com/kda-community/foundry-chainweb) package provides utilities to help you use the Foundry smart contract development toolchain to develop, test, and deploy projects on the Kadena Chainweb EVM blockchain.
 These utilities extend the Foundry toolchain to support the Kadena multi-chain network, where transactions can be processed by multiple, parallel, EVM-compatible chains.
 
 For information about installing the Foundry smart contract development toolchain and getting started with Solidity smart contract development, see the [Foundry](https://getfoundry.sh/introduction/overview) documentation.
@@ -19,21 +19,21 @@ Verify that your development environment meets the following basic requirements:
 
 - You have the Foundry toolchain—with the `forge`, `cast`, `anvil`, and `chisel` binaries—installed locally or running in a Docker container.
 - You have Git installed for managing your project.
-- You have cloned the [kadena-evm-sandbox](https://github.com/kadena-io/kadena-evm-sandbox) so that you have access to public and private keys for test accounts with default allocations.
+- You have cloned the [kadena-evm-sandbox](https://github.com/kda-community/kadena-evm-sandbox) so that you have access to public and private keys for test accounts with default allocations.
 
 If you want to deploy projects on the Kadena Chainweb EVM test network, you must have an EVM-compatible wallet and the private key for an account holding testnet KDA funds.
 For more information about deploying projects on the Chainweb EVM test network, see [Kadena Chainweb EVM deployment](/guides/nodes/howto-evm).
 
 ## Quick start
 
-If you have the Foundry toolchain installed, you can clone the [foundry-chainweb](https://github.com/kadena-io/foundry-chainweb) repository, navigate to the `/examples/Counter` folder, and begin experimenting with building, testing, and running scripts without first creating and configuring your own project.
+If you have the Foundry toolchain installed, you can clone the [foundry-chainweb](https://github.com/kda-community/foundry-chainweb) repository, navigate to the `/examples/Counter` folder, and begin experimenting with building, testing, and running scripts without first creating and configuring your own project.
 
 To explore the sample `Counter` project:
 
 1. Clone the `foundry-chainweb` repository:
    
    ```bash
-   https://github.com/kadena-io/foundry-chainweb.git && cd foundry-chainweb
+   https://github.com/kda-community/foundry-chainweb.git && cd foundry-chainweb
    ```
   
 2. Change to the `examples/Counter` directory:
@@ -730,7 +730,7 @@ The nonce for that sender is maintained per fork.
 
 ## Deterministic deployment
 
-The `/examples/Counter` folder in the [foundry-chainweb](https://github.com/kadena-io/foundry-chainweb) repository includes a sample script that demonstrates how to deploy a contract that has the same address on every chain.
+The `/examples/Counter` folder in the [foundry-chainweb](https://github.com/kda-community/foundry-chainweb) repository includes a sample script that demonstrates how to deploy a contract that has the same address on every chain.
 
 The `CounterCreate2.s.sol` script demonstrates deterministic deployment across all Chainweb EVM chains using the CREATE2 opcode.
 The CREATE2 opcode ensures that the same contract is deployed using a predetermined address that is exactly the same on every chain, making cross-chain interactions predictable and easier to manage.

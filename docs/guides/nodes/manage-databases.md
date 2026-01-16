@@ -160,4 +160,4 @@ To reduce storage for Chainweb node databases:
    After you restart the node, it should run normally with the reduced database size as though nothing has changed.
    You can delete the old database files or keep them locally or in another location as a backup.
 
-If you encounter errors or warnings, open a new issue for [chainweb-node](https://github.com/kadena-io/chainweb-node#issues) or contact Kadena developers in the [infrastructure](https://discord.com/channels/502858632178958377/1051827506279370802) channel on the Kadena Discord server.
+If you encounter errors or warnings, open a new issue for [chainweb-node](https://github.com/kda-community/chainweb-node#issues) or contact Kadena developers in the [infrastructure](https://discord.com/channels/502858632178958377/1051827506279370802) channel on the Kadena Discord server.

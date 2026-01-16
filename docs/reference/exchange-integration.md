@@ -372,7 +372,7 @@ const gasEstimation = response.gas;
 There are several ways you can listen for events emitted by transactions that are executed on the blockchain.
 For example, you can listen for `coin.TRANSFER` events in the following ways:
 
-- Use the [`chainweb-stream`](https://github.com/kadena-io/chainweb-stream) server package with the
+- Use the [`chainweb-stream`](https://github.com/kda-community/chainweb-stream) server package with the
 [`@kadena/chainweb-stream-client`](https://www.npmjs.com/package/@kadena/chainweb-stream-client) to listen for specific events.
 
 - Use third-party indexing services such as [Kadindexer](https://www.kadindexer.io/) or [Tatum](https://www.tatum.io/chain/kadena) to listen for specific events.

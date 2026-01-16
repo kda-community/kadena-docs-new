@@ -21,7 +21,7 @@ There are two primary ways you can set up a local development network that inclu
   For instructions, see [Start the development network](#start-the-development-network).
 - You can download and run the `chainweb-node` program as a standalone release binary from its GitHub repository.
   With this option, you can manually select the tools and configuration settings you want the node to use. 
-  For instructions, see [Install a standalone node](#install-a-standalone-node) or [chainweb-node](https://github.com/kadena-io/chainweb-node?tab=readme-ov-file#installing-chainweb).
+  For instructions, see [Install a standalone node](#install-a-standalone-node) or [chainweb-node](https://github.com/kda-community/chainweb-node?tab=readme-ov-file#installing-chainweb).
 
 ## Start the development network
 
@@ -165,7 +165,7 @@ For example, you might need to configure port forwarding for port 1789 on your r
 
 ### Install from release binaries
 
-You can download compressed archive files with `chainweb-node` release binaries for Ubuntu Linux directly from the [Releases](https://github.com/kadena-io/chainweb-node/releases) page in the [chainweb-node](https://github.com/kadena-io/chainweb-node/) repository.
+You can download compressed archive files with `chainweb-node` release binaries for Ubuntu Linux directly from the [Releases](https://github.com/kda-community/chainweb-node/releases) page in the [chainweb-node](https://github.com/kda-community/chainweb-node/) repository.
 If you have Ubuntu 20.04 or Ubuntu 22.04 on a physical or virtual machine, downloading the binary is the most straightforward installation path.
 
 To install from a release archive:
@@ -186,7 +186,7 @@ To install from a release archive:
 
    If your computer uses the Ubuntu 20.04 operating system, install the `libssl1.1` package instead of the `libssl3` package. 
 
-4. Download the archive file from the [Releases](https://github.com/kadena-io/chainweb-node/releases) page.
+4. Download the archive file from the [Releases](https://github.com/kda-community/chainweb-node/releases) page.
    
    Note that the archive file naming convention includes the `chainweb-node` version, compiler version, Ubuntu version, and a commit hash identifier using the following format:
    

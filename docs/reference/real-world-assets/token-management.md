@@ -5,7 +5,7 @@ id: token-management
 sidebar_position: 5
 ---
 
-The `mvp-token` contract implements the [`real-world-asset-v1`](https://github.com/kadena-io/RWA-token/blob/main/contracts/real-world-asset/real-world-asset-v1.pact) interface.
+The `mvp-token` contract implements the [`real-world-asset-v1`](https://github.com/kda-community/RWA-token/blob/main/contracts/real-world-asset/real-world-asset-v1.pact) interface.
 The interface defines the core capabilities and function signatures for issuing and managing tokens that represent physical assets or financial instruments that are broadly accepted as valuable and have specific compliance requirements.
 The `mvp-token` contract extends the `real-world-asset-v1` interface by defining additional capabilities and functions to complement the core capabilities and function signatures.
 
