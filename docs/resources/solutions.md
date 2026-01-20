@@ -55,9 +55,9 @@ Is a CLI (Command-Line Interface) utility that jump-starts Kadena-based applicat
 
 ## Cross-Chain Finisher & Tracker
 
-[Finisher](https://tools.kadena.io/transactions/cross-chain-transfer-finisher)
+[Finisher](https://tools.chainweb-community.org/transactions/cross-chain-transfer-finisher)
 
-[Tracker](https://tools.kadena.io/transactions/cross-chain-transfer-tracker)
+[Tracker](https://tools.chainweb-community.org/transactions/cross-chain-transfer-tracker)
 
 ## Cryptography Utils
 
@@ -67,9 +67,9 @@ Is a TypeScript library that provides foundational cryptographic functionality f
 
 ## Faucet
 
-[Fund New Account](https://tools.kadena.io/faucet/new)
+[Fund New Account](https://tools.chainweb-community.org/faucet/new)
 
-[Fund Existing Account](https://tools.kadena.io/faucet/existing)
+[Fund Existing Account](https://tools.chainweb-community.org/faucet/existing)
 
 ## GraphQL
 
@@ -93,7 +93,7 @@ Is a command-line interface designed to simplify various tasks related to Kadena
 
 Easy Integration: Simple, developer-friendly methods for setting up streams and handling incoming data within your codebase.
 
-[Visit](https://tools.kadena.io/modules/explorer)
+[Visit](https://tools.chainweb-community.org/modules/explorer)
 
 ## PactJS
 

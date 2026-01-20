@@ -6,11 +6,11 @@
 
 # Kadena Developer Docs
 
-This repository contains the contents for the Kadena Developer Docs deployed at [https://docs.kadena.io](https://docs.kadena.io).
+This repository contains the contents for the Kadena Developer Docs deployed at [https://kda-chain.org/docs/](https://kda-chain.org/docs/).
 
 ## Installation
 
-```
+``` 
 $ npm install 
 ```
 

@@ -113,7 +113,7 @@
           },
           {
                "source": "/kadena/wallets",
-               "destination": "https://www.kadena.io/defi?topic=Wallets",
+               "destination": "https://kda-chain.org/wallets.html",
                "permanent": true
           }
      ]

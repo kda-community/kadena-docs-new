@@ -38,27 +38,20 @@ Decentralized finance (DeFi) projects build financial applications outside of tr
 Non-custodial wallets and services enable users to manage their own assets and account information with complete control over and ownership of their private keys and digital assets. 
 With non-custodial wallets and services, the power and risk of managing keys and assets—and keeping funds and accounts secure—is the responsibility of the account owner and doesn't involve intermediary parties, such as exchanges, brokerages, or other financial institutions.
 
-- [eckoWALLET](https://www.kadena.io/ecosystem/eckowallet?returnTo=%2Fecosystem)
-- [Enkrypt](https://www.kadena.io/ecosystem/enkrypt?returnTo=%2Fecosystem)
-- [Koala Wallet](https://www.kadena.io/ecosystem/koala-wallet?returnTo=%2Fecosystem)
-- [Ledger](https://www.kadena.io/ecosystem/ledger?returnTo=%2Fecosystem)
-- [LinxWallet](https://www.kadena.io/ecosystem/linxwallet?returnTo=%2Fecosystem)
-- [Magic](https://www.kadena.io/ecosystem/magic?returnTo=%2Fecosystem)
-- [MetaMask](https://www.kadena.io/ecosystem/metamask?returnTo=%2Fecosystem)
-- [Zalcore](https://www.kadena.io/ecosystem/zelcore?returnTo=%2Fecosystem)
+- [wallets](https://kda-chain.org/wallets.html)
+
 
 ## Custodial wallets and services
 
-- [Binance](https://www.kadena.io/ecosystem/binance?returnTo=%2Fecosystem)
-- [Coinmetro](https://www.kadena.io/ecosystem/coinmetro?returnTo=%2Fecosystem)
-- [Crypto.com](https://www.kadena.io/ecosystem/crypto-com?returnTo=%2Fecosystem)
-- [Gate.io](https://www.kadena.io/ecosystem/gate-io?returnTo=%2Fecosystem)
-- [KuCoin](https://www.kadena.io/ecosystem/kucoin?returnTo=%2Fecosystem)
-- [Okcoin](https://www.kadena.io/ecosystem/okcoin?returnTo=%2Fecosystem)
-- [OKX](https://www.kadena.io/ecosystem/okx?returnTo=%2Fecosystem)
+- [exchanges](https://kda-chain.org/ecosystem.html)
+
 
 ## Indexers and block explorers
 
-[Hack-a-Chain Kadindexer - Kadena Indexer for Chainweb and Pact](https://github.com/hack-a-chain-software/indexer-kadena)
+- [Kadena Idexer](https://github.com/CryptoPascal31/kadena_indexer)
 
-[Blockscout for Chainweb EVM (chain 20)](https://chain-20.evm-testnet-blockscout.chainweb.com/)
+- [block explorers](https://kda-chain.org/ecosystem.html)
+
+- [Hack-a-Chain Kadindexer - Kadena Indexer for Chainweb and Pact](https://github.com/hack-a-chain-software/indexer-kadena)
+
+- [Blockscout for Chainweb EVM (chain 20)](https://chain-20.evm-testnet-blockscout.chainweb.com/)
