@@ -369,8 +369,8 @@ To define a constant value, use the following syntax model:
 The following examples illustrate defining constants with optional documentation:
 
 ```pact
-(defconst COLOR_RED="#FF0000" "Red in hex")
-(defconst COLOR_GRN="#00FF00" "Green in hex")
+(defconst COLOR_RED "#FF0000" "Red in hex")
+(defconst COLOR_GRN "#00FF00" "Green in hex")
 (defconst PI 3.14159265 "Pi to 8 decimals")
 ```
 
