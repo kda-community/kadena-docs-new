@@ -58,8 +58,7 @@ pact> -922337203685477580712387461234
 
 ## Decimals
 
-Decimal literals have potentially unlimited precision.
-
+Decimal literals have at most 256 decimal places of precision.
 ```bash
 pact> 100.25
 100.25

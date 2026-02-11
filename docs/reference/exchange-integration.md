@@ -84,10 +84,10 @@ For example, you can create keys and accounts by using any of the following wall
 - [Chainweaver v3](https://wallet.kadena.io) (built by Kadena).
   You can also import accounts and keys from previous versions of Chainweaver.
 
-- [Kadena CLI Wallet](https://docs.kadena.io/reference/cli/cli-wallet) (built by Kadena).
+- [Kadena CLI Wallet](https://kda-chain.org/docs/reference/cli/cli-wallet) (built by Kadena).
   You can also use `@kadena/kadena-cli` to import accounts and keys from previous versions of Chainweaver, from other wallets, or from public and private key pairs you've generated using other tools.
 
-- [Other Kadena ecosystem wallets](https://www.kadena.io/defi/wallets?topic=Wallets).
+- [Other Kadena ecosystem wallets](https://kda-chain.org/wallets.html).
   You can also create an account using any of the wallets developed by third parties that support the Kadena network.
   
   ![Kadena ecosystem wallets](/img/wallets-website.jpg)

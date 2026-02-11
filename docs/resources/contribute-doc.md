@@ -43,7 +43,7 @@ If you want to make a simple fix on an existing page—for example, to fix a typ
 
 To edit an existing page:
 
-1. Open [docs.kadena.io](https://docs.kadena.io) and navigate to the page you want to change.
+1. Open [kda-chain.org/docs](https://kda-chain.org/docs/) and navigate to the page you want to change.
 2. Click **Edit this page** to open the page in its GitHub repository.
 3. Edit the page in GitHub, then click **Commit changes**.
 4. Replace the default commit message with a short description of your change and, optionally, an extended description of the change or why you're proposing the change.

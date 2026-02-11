@@ -46,7 +46,7 @@ At a high level, Kadena Chainweb EVM supports cross-chain activity in three main
 
 ## Chainweb EVM development environment
 
-The [kadena-evm-sandbox](https://github.com/kda-community/kadena-evm-sandbox) repository provides tools and configuration files for developers interested in setting up a private local development environment for testing the Ethereum Virtual Machine (EVM) execution environment running on [Chainweb nodes](https://kadena.io/chainweb) that provide the infrastructure for the [Kadena](https://kadena.io) blockchain network.
+The [kadena-evm-sandbox](https://github.com/kda-community/kadena-evm-sandbox) repository provides tools and configuration files for developers interested in setting up a private local development environment for testing the Ethereum Virtual Machine (EVM) execution environment running on [Chainweb nodes](https://kadena.io/chainweb) that provide the infrastructure for the [Kadena](https://kda-chain.org) blockchain network.
 
 The repository includes a default configuration for a `docker compose` image that is optimized for basic frontend development with an EVM-compatible node as the backend.
 The default configuration includes chains 0 through 19 for Pact smart contracts and chains 20 though 24 for Solidity contracts.
