@@ -103,6 +103,7 @@ const sidebars: SidebarsConfig = {
                               'guides/nodes/howto-evm',
                          ],
                     },
+                    'guides/kda-tool',
                     'guides/dev-kadena-cli',
                     'guides/chainweaver',
                     'guides/kadena-client-quickstart',
