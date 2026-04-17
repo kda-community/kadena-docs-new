@@ -13,13 +13,13 @@ The request must be sent to the chain where the transaction initiated.
 
 ## Request format
 
-Use the `POST http://{baseURL}/chain/{chain}/pact/api/v1/spv` endpoint to issue a blocking request to fetch a simple payment verification (spv) proof of a cross-chain transaction. 
+Use the `POST http://{baseURL}/chain/{chain}/pact/spv` endpoint to issue a blocking request to fetch a simple payment verification (spv) proof of a cross-chain transaction.
 
 ### Path parameters
 
 | Parameter | Type | Description
 | --------- | ---- | -----------
-| chain&nbsp;(required) | integer&nbsp;>=&nbsp;0 | Specifies the chain identifier of the chain you want to send the request to. Valid values are 0 to 19. For example, to submit the command on the first chain (0), the request is `POST http://{baseURL}/chain/0/pact/api/v1/spv`.
+| chain&nbsp;(required) | integer&nbsp;>=&nbsp;0 | Specifies the chain identifier of the chain you want to send the request to. Valid values are 0 to 19. For example, to submit the command on the first chain (0), the request is `POST http://{baseURL}/chain/0/pact/spv`.
 
 ### Request body schema
 
@@ -30,7 +30,7 @@ Use the `POST http://{baseURL}/chain/{chain}/pact/api/v1/spv` endpoint to issue 
 
 ## Response 
 
-Requests to `POST http://{baseURL}/chain/{chain}/pact/api/v1/spv` return the following response codes:
+Requests to `POST http://{baseURL}/chain/{chain}/pact/spv` return the following response codes:
 
 - **200 OK** indicates that the request succeeded and the response body includes the requested payment verification proof.
 - **400 Bad Request** indicates that the request failed. The response returns `text/plain` content with information about why the request failed.
