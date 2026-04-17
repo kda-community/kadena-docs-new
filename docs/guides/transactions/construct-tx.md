@@ -37,14 +37,14 @@ If you run the command without any options, you are prompted to select a templat
 If you want to create a transaction without interactive prompted, you can specify command-line options similar to the following:
 
 ```bash
-kadena tx add --template="transfer.kptl" --template-data="data.yaml" --network-id="testnet04" --out-file="transaction.json"
+kadena tx add --template="transfer.kptl" --template-data="data.yaml" --network-id="testnet06" --out-file="transaction.json"
 ```
 
 In this example:
 
 - The `--template="transfer.kptl"` argument is required to identify the template you want to use to construct the transaction.
 - The `--template-data="data.yaml"` argument specifies the file that contains the values to use for the template variables.
-- The `--network-id="testnet04"` argument specifies the network the transaction is intended for. 
+- The `--network-id="testnet06"` argument specifies the network the transaction is intended for.
 - The `--out-file="transaction.json"` argument specifies the file name for the generated transaction that is saved in the current working directory.
 
 For information about the command-line options you can use with the `kadena tx add` command, type:

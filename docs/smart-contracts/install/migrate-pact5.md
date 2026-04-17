@@ -17,9 +17,9 @@ The timeline for migrating to Pact 5 looks like this:
 
 - Chainweb nodes will be upgraded to Pact 5 with the `chainweb-node` 2.27 release on 29 January 2025.
 - The Kadena main production network (`mainnet01`) will be upgraded to use Pact 5 on 10 February 2025.
-- The Kadena test network (`testnet04`) will be upgraded to use Pact 5 on 6 February 2025.
+- The Kadena test network (`testnet06`) will be upgraded to use Pact 5 on 6 February 2025.
 - An interim test network (`testnet05`) is currently available for testing with Pact 5.
-  The `testnet05` network will be decommissioned and removed from service on 7 February 2025 after the `testnet04` network is upgraded to use Pact 5.
+  The `testnet05` network will be decommissioned and removed from service on 7 February 2025 after the `testnet06` network is upgraded to use Pact 5.
 
 ## Preparing to migrate
 

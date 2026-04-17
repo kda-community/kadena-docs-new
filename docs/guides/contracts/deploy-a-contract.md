@@ -201,7 +201,7 @@ The library provides functions that simplify building transactions with Pact com
 You should note that creating the client connection is separate from using the `Pact.builder` function to construct transactions.
 
 The following example illustrates what a script using `@kadena/client` to deploy a smart contract would look like.
-This example deploys the `simplemodule` in the `free` namespace on the `testnet04` network.
+This example deploys the `simplemodule` in the `free` namespace on the `testnet06` network.
 
 
 ```typescript
@@ -227,7 +227,7 @@ async function deployContract(
       gasPrice: 0.0000001,
       senderAccount: deployerAccount,
     })
-    .setNetworkId('testnet04')
+    .setNetworkId('testnet06')
     .createTransaction();
 
   try {

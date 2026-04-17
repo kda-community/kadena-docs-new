@@ -307,7 +307,7 @@ createBidId(inputs): string
 | saleId | string | Specifies the Pact identifier for the token sale. |
 | bidderAccount | string | Specifies the bidder account information. |
 | chainId | ChainId | Specifies the chain identifier for the chain where where you want to create a bid identifier. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for the bid. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for the bid. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for the bid. |
 
 ### Return value
@@ -341,7 +341,7 @@ createCollectionId(inputs): string
 | collectionName | string | Specifies the name of the collection. |
 | operator | string | Specifies the collection operator. |
 | chainId | ChainId | Specifies the chain identifier for the chain where where you want to create the collection identifier. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for the collection identifier. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for the collection identifier. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for the collection identifier. |
 
 ### Return value
@@ -426,7 +426,7 @@ createTokenId(inputs): string
 | collectionName | string | Specifies the name of the token collection, if applicable. |
 | creator | string | Specifies the token creator account information.|
 | chainId | ChainId | Specifies the chain identifier for the chain where where you want to create the token identifier. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for the token identifier. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for the token identifier. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for the token identifier. |
 
 #### Policy configuration object
@@ -574,7 +574,7 @@ escrowAccount(inputs): string
 | --------- | ---- | ----------- |
 | saleId | string | Specifies the Pact identifier for the token sale. |
 | chainId | ChainId | Specifies the chain identifier for the chain where the escrow account is created. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for the escrow account. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for the escrow account. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for the escrow account. |
 
 ### Return value
@@ -607,7 +607,7 @@ getAccountDetails(inputs): object
 | tokenId | string | Specifies the token identifier for the token that you want to retrieve information for. |
 | accountName | string | Specifies the account name that you want to retrieve information for. |
 | chainId | ChainId | Specifies the chain identifier for the chain from which you want to get account details. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for retrieving account details. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for retrieving account details. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for retrieving account details.|
 
 ### Return value
@@ -641,7 +641,7 @@ getAuctionDetails(inputs): object
 | auctionConfig | IAuctionConfig | Specifies the type of the auction. |
 | saleId | string | Specifies the Pact identifier for the sale you want to retrieve information for. |
 | chainId | ChainId | Specifies the chain identifier for the chain from which you want to get auction details. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for retrieving auction details. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for retrieving auction details. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for retrieving auction details.|
 
 ### Return value
@@ -673,7 +673,7 @@ getBid(inputs): object
 | --------- | ---- | ------------|
 | bidId | string | Specifies the identifier for the bid you want to retrieve information for. |
 | chainId | ChainId | Specifies the chain identifier for the chain from which you want to get bid details. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for retrieving bid details. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for retrieving bid details. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for retrieving bid details.|
 
 ### Return value
@@ -705,7 +705,7 @@ getCollectionToken(inputs): object
 | ----------| ---- | ----------- |
 | tokenId | string | Specifies the token identifier for the token that you want to retrieve information for. |
 | chainId | ChainId | Specifies the chain identifier for the chain from which you want to get information about a token in a collection. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for retrieving information about a token in a collection. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for retrieving information about a token in a collection. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for retrieving information about a token in a collection.|
 
 ### Return value
@@ -737,7 +737,7 @@ getCollection(inputs): object
 | --------- | ---- | ----------- |
 | collectionId | string | Specifies the collection identifier for the collection that you want to retrieve information for. |
 | chainId | ChainId | Specifies the chain identifier for the chain from which you want to get information about a collection. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for retrieving information about a collection. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for retrieving information about a collection. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for retrieving information about a collection.|
 
 ### Return value
@@ -769,7 +769,7 @@ getCurrentPrice(inputs): IPactDecimal
 | --------- | ---- | ----------- |
 | saleId | string | Specifies the Pact identifier for the sale you want to retrieve information for. |
 | chainId | ChainId | Specifies the chain identifier for the chain from which you want to get information about the current price for a token. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for retrieving information about the current price for a token. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for retrieving information about the current price for a token. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for retrieving information about the current price for a token.|
 
 ### Return value
@@ -801,7 +801,7 @@ getEscrowAccount(inputs): object
 | --------- | --------------------- | -------------- |
 | saleId | string | Specifies the Pact identifier for the sale you want to retrieve information for. |
 | chainId | ChainId | Specifies the chain identifier for the chain from which you want to get information about an escrow account. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for retrieving information about an escrow account. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for retrieving information about an escrow account. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for retrieving information about an escrow account.|
 
 ### Return value
@@ -833,7 +833,7 @@ getQuoteInfo(inputs): object
 | --------- | --------------------- | -------------- |
 | saleId | string | Specifies the Pact identifier for the sale you want to retrieve information for. |
 | chainId | ChainId | Specifies the chain identifier for the chain from which you want to get information about a quote. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for retrieving information about a quote. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for retrieving information about a quote. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for retrieving information about a quote.|
 
 ### Return value
@@ -866,7 +866,7 @@ getTokenBalance(inputs): IPactDecimal
 | tokenId | string | Specifies the token identifier for the token that you want to retrieve information for. |
 | accountName | string | Specifies the account name that you want to retrieve information for. |
 | chainId | ChainId | Specifies the chain identifier for the chain from which you want to get balance information for a token. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for retrieving information about the balance for a token. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for retrieving information about the balance for a token. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for retrieving information about the balance for a token.|
 
 ### Return value
@@ -899,7 +899,7 @@ getTokenInfo(inputs): object
 | --------- | ---- | ----------- |
 | tokenId | string | Specifies the token identifier for the token that you want to retrieve information for. |
 | chainId | ChainId | Specifies the chain identifier for the chain from which you want to get information for the token. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for retrieving information about the token. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for retrieving information about the token. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for retrieving information about the token.|
 
 ### Return value
@@ -931,7 +931,7 @@ getUri(inputs): string
 | --------- | ---- | ----------- |
 | tokenId | string | Specifies the token identifier for the token that you want to retrieve information for. |
 | chainId | ChainId | Specifies the chain identifier for the chain from which you want to get the URI for the token. Valid values are 0 to 19.|
-| networkId | NetworkId | Specifies the target network for retrieving the URI for the token. Valid values are development, testnet04, and mainnet01. |
+| networkId | NetworkId | Specifies the target network for retrieving the URI for the token. Valid values are development, testnet06, and mainnet01. |
 | host | IClientConfig['host'] | Specifies the target node for retrieving the URI for the token.|
 
 ### Return value

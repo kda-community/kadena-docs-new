@@ -106,19 +106,19 @@ For example:
 ? Template value to-acct: k:5ec41b89d323398a609ffd54581f2bd6afc706858063e8f3e8bc76dc5c35e2c0
 ? Template value amount: 2.0
 ? Template value chain: 1
-? Template value network: testnet04
+? Template value network: testnet06
 ? Template value from-key: bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e
 ? Where do you want to save the output: tx-wip
 ```
 
 Be sure to use the account name—for example, the principal account name with the k: prefix—for transferring funds between account and not the account alias.
-WHen specifying the network, you must use the network identifier—for example, development, testnet04,  or mainnet01—rather than the network name.
+WHen specifying the network, you must use the network identifier—for example, development, testnet06,  or mainnet01—rather than the network name.
 After you respond to the prompts, the command displays the transaction you constructed and confirms the location of the file containing the unsigned transaction.
 For example:
 
 ```bash
 {
-  "cmd": "{\"payload\":{\"exec\":{\"code\":\"(coin.transfer \\\"k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e\\\" \\\"k:5ec41b89d323398a609ffd54581f2bd6afc706858063e8f3e8bc76dc5c35e2c0\\\" 2.0)\",\"data\":{}}},\"nonce\":\"\",\"networkId\":\"testnet04\",\"meta\":{\"sender\":\"k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e\",\"chainId\":\"1\",\"creationTime\":1716319427,\"gasLimit\":2300,\"gasPrice\":0.000001,\"ttl\":600},\"signers\":[{\"pubKey\":\"bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e\",\"clist\":[{\"name\":\"coin.TRANSFER\",\"args\":[\"k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e\",\"k:5ec41b89d323398a609ffd54581f2bd6afc706858063e8f3e8bc76dc5c35e2c0\",2]},{\"name\":\"coin.GAS\",\"args\":[]}]}]}",
+  "cmd": "{\"payload\":{\"exec\":{\"code\":\"(coin.transfer \\\"k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e\\\" \\\"k:5ec41b89d323398a609ffd54581f2bd6afc706858063e8f3e8bc76dc5c35e2c0\\\" 2.0)\",\"data\":{}}},\"nonce\":\"\",\"networkId\":\"testnet06\",\"meta\":{\"sender\":\"k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e\",\"chainId\":\"1\",\"creationTime\":1716319427,\"gasLimit\":2300,\"gasPrice\":0.000001,\"ttl\":600},\"signers\":[{\"pubKey\":\"bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e\",\"clist\":[{\"name\":\"coin.TRANSFER\",\"args\":[\"k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e\",\"k:5ec41b89d323398a609ffd54581f2bd6afc706858063e8f3e8bc76dc5c35e2c0\",2]},{\"name\":\"coin.GAS\",\"args\":[]}]}]}",
   "hash": "fnfc-hZ9Lz0xzydBkURoL-Muxg0X80MIVKojIoJy9fQ",
   "sigs": [
     null
@@ -128,7 +128,7 @@ For example:
 transaction saved to: ./tx-wip.json
 
 Executed:
-kadena tx add --template="transfer.ktpl" --template-data="" --from-acct="k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e" --to-acct="k:5ec41b89d323398a609ffd54581f2bd6afc706858063e8f3e8bc76dc5c35e2c0" --amount="2.0" --chain="1" --network="testnet04" --from-key="bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e" --out-file="tx-wip.json" 
+kadena tx add --template="transfer.ktpl" --template-data="" --from-acct="k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e" --to-acct="k:5ec41b89d323398a609ffd54581f2bd6afc706858063e8f3e8bc76dc5c35e2c0" --amount="2.0" --chain="1" --network="testnet06" --from-key="bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e" --out-file="tx-wip.json"
 ```
 
 ## kadena tx sign
@@ -285,13 +285,13 @@ This command prompts you to select a signed transaction file, then displays the 
   Details:
      chainId: 1
      network: testnet
-     networkId: testnet04
+     networkId: testnet06
      networkHost: https://api.testnet.chainweb.com
      networkExplorerUrl: https://explorer.chainweb.com/testnet/tx/
 
 
   Transaction Command:
-     cmd: {"payload":{"exec":{"code":"(coin.transfer \"k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e\" \"k:5ec41b89d323398a609ffd54581f2bd6afc706858063e8f3e8bc76dc5c35e2c0\" 2.0)","data":{}}},"nonce":"","networkId":"testnet04","meta":{"sender":"k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e","chainId":"1","creationTime":1716319427,"gasLimit":2300,"gasPrice":0.000001,"ttl":600},"signers":[{"pubKey":"bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e","clist":[{"name":"coin.TRANSFER","args":["k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e","k:5ec41b89d323398a609ffd54581f2bd6afc706858063e8f3e8bc76dc5c35e2c0",2]},{"name":"coin.GAS","args":[]}]}]}
+     cmd: {"payload":{"exec":{"code":"(coin.transfer \"k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e\" \"k:5ec41b89d323398a609ffd54581f2bd6afc706858063e8f3e8bc76dc5c35e2c0\" 2.0)","data":{}}},"nonce":"","networkId":"testnet06","meta":{"sender":"k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e","chainId":"1","creationTime":1716319427,"gasLimit":2300,"gasPrice":0.000001,"ttl":600},"signers":[{"pubKey":"bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e","clist":[{"name":"coin.TRANSFER","args":["k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e","k:5ec41b89d323398a609ffd54581f2bd6afc706858063e8f3e8bc76dc5c35e2c0",2]},{"name":"coin.GAS","args":[]}]}]}
      hash: fnfc-hZ9Lz0xzydBkURoL-Muxg0X80MIVKojIoJy9fQ
      sigs:
       [0]:
@@ -342,7 +342,7 @@ kadena tx send
 
 Transaction detail for command with hash: fnfc-hZ9Lz0xzydBkURoL-Muxg0X80MIVKojIoJy9fQ
 Network ID Chain ID
-testnet04  1       
+testnet06  1
 
 
 ✔ Completed

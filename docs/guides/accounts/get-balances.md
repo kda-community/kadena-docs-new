@@ -49,8 +49,8 @@ To get an account balance:
    sigs:
      - public: "4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0"
        caps: []
-   
-   networkId: testnet04
+
+   networkId: testnet06
    publicMeta:
        chainId: "1"
        sender: "k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0"
@@ -64,7 +64,7 @@ To get an account balance:
    
    - The transaction request calls the `coin.get-balance` function.
    - The account name is `k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0`.
-   - The network identifier is `testnet04`.
+   - The network identifier is `testnet06`.
    - The chain identifier for the account balance is chain `1`.
    
    The `gasLimit`, `gasPrice`, and `ttl` values represent reasonable settings.
@@ -79,7 +79,7 @@ To get an account balance:
    For example:
    
    ```bash
-   {"hash":"8bZdo6EG-WVl5CqQLcsAkYOchf_dujjdqsrsNYRQDXw","sigs":[],"cmd":"{\"networkId\":\"testnet04\",\"payload\":{\"exec\":{\"data\":{},\"code\":\"(coin.get-balance \\\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\\\")\"}},\"signers\":[],\"meta\":{\"creationTime\":1726864470,\"ttl\":7800,\"gasLimit\":100000,\"chainId\":\"1\",\"gasPrice\":1.0e-7,\"sender\":\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\"},\"nonce\":\"2024-09-20 20:34:30.276972 UTC\"}"}
+   {"hash":"8bZdo6EG-WVl5CqQLcsAkYOchf_dujjdqsrsNYRQDXw","sigs":[],"cmd":"{\"networkId\":\"testnet06\",\"payload\":{\"exec\":{\"data\":{},\"code\":\"(coin.get-balance \\\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\\\")\"}},\"signers\":[],\"meta\":{\"creationTime\":1726864470,\"ttl\":7800,\"gasLimit\":100000,\"chainId\":\"1\",\"gasPrice\":1.0e-7,\"sender\":\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\"},\"nonce\":\"2024-09-20 20:34:30.276972 UTC\"}"}
    ```
 
    Alternatively, you can save the result from the `pact --apireq` command in a file with a command similar to the following:
@@ -93,9 +93,9 @@ To get an account balance:
 5. Connect to the Pact `/local` endpoint for the appropriate network with a command similar to the following:
 
    ```bash
-   curl -X POST "https://api.testnet.chainweb.com/chainweb/0.0/testnet04/chain/1/pact/api/v1/local" \
+   curl -X POST "https://api.testnet.chainweb.com/chainweb/0.0/testnet06/chain/1/pact/api/v1/local" \
      -H "Content-Type: application/json" \
-     -d '{"hash":"8bZdo6EG-WVl5CqQLcsAkYOchf_dujjdqsrsNYRQDXw","sigs":[],"cmd":"{\"networkId\":\"testnet04\",\"payload\":{\"exec\":{\"data\":{},\"code\":\"(coin.get-balance \\\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\\\")\"}},\"signers\":[],\"meta\":{\"creationTime\":1726864470,\"ttl\":7800,\"gasLimit\":100000,\"chainId\":\"1\",\"gasPrice\":1.0e-7,\"sender\":\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\"},\"nonce\":\"2024-09-20 20:34:30.276972 UTC\"}"}'
+     -d '{"hash":"8bZdo6EG-WVl5CqQLcsAkYOchf_dujjdqsrsNYRQDXw","sigs":[],"cmd":"{\"networkId\":\"testnet06\",\"payload\":{\"exec\":{\"data\":{},\"code\":\"(coin.get-balance \\\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\\\")\"}},\"signers\":[],\"meta\":{\"creationTime\":1726864470,\"ttl\":7800,\"gasLimit\":100000,\"chainId\":\"1\",\"gasPrice\":1.0e-7,\"sender\":\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\"},\"nonce\":\"2024-09-20 20:34:30.276972 UTC\"}"}'
     ```
 
     The command returns output similar to the following:
@@ -121,8 +121,8 @@ To get an account balance:
       "txId":null
     }
     ```
-    
-    In this example, the account `k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0` has a balance of `20` coins on chain `1` of the Kadena `testnet04` network.
+
+    In this example, the account `k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0` has a balance of `20` coins on chain `1` of the Kadena `testnet06` network.
 
 ## Using kadena-cli commands
 
@@ -199,14 +199,14 @@ To get an account balance using `kadena-cli`:
    For example:
 
    ```bash
-   Details of account "pistolas-testnet" on network "testnet04"
-   Name                             ChainID Public Keys                                                      Predicate Balance        
+   Details of account "pistolas-testnet" on network "testnet06"
+   Name                             ChainID Public Keys                                                      Predicate Balance
    k:bbccc99ec9ee....4e750ba424d35e 1       bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e keys-all  303.97768665622
    k:bbccc99ec9ee....4e750ba424d35e 3       bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e keys-all  10             
    Success with Warnings:
    
    Account "k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e" is not available on
-   following chain(s): 2 on network "testnet04"
+   following chain(s): 2 on network "testnet06"
    ```
    
    The command output also includes the command executed.

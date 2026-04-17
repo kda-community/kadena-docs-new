@@ -76,7 +76,7 @@ If the transaction isn't found in the memory pool, the response body returns fal
 You can send a request to a bootstrap node for the Kadena test network and chain id 1 with a call like this:
 
 ```postman
-POST https://us1.testnet.chainweb.com/chainweb/0.0/testnet04/chain/1/mempool/member
+POST https://us1.testnet.chainweb.com/chainweb/0.0/testnet06/chain/1/mempool/member
 ```
 
 For this example, the request body consists of two request keys:

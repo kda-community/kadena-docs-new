@@ -58,7 +58,7 @@ If the request is successful, the response returns `application/json` content wi
 You can send a request to the Kadena test network and chain 1 by calling the `/poll` endpoint like this:
 
 ```Postman
-POST http://api.testnet.chainweb.com/chainweb/0.0/testnet04/chain/1/pact/api/v1/poll?confirmationDepth=6
+POST http://api.testnet.chainweb.com/chainweb/0.0/testnet06/chain/1/pact/api/v1/poll?confirmationDepth=6
 ```
 
 For this example, the request body specifies one request key:

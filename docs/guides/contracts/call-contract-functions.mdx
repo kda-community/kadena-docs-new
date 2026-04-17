@@ -70,7 +70,7 @@ To call the `init` function using a `curl` command and `/send` endpoint:
    cat tx-init.yaml | pact add-sig pistolas.yaml > tx-signed-init.json
    ```
 
-1. Use `curl` to connect to the `/send` endpoint on the `development`, `testnet04` or `mainnet01` network.
+1. Use `curl` to connect to the `/send` endpoint on the `development`, `testnet06` or `mainnet01` network.
 
    ```bash
    curl -X POST -H "Content-Type: application/json" -d "@tx-signed-init.json" http://localhost:8080/chainweb/0.0/development/chain/3/pact/api/v1/send
@@ -94,7 +94,7 @@ To call the `getVotes` function using a `curl` command and `/local` endpoint:
    type: exec
    ```
 
-1. Format the request and use `curl` to connect to the `/local` endpoint on the `development`, `testnet04` or `mainnet01` network.
+1. Format the request and use `curl` to connect to the `/local` endpoint on the `development`, `testnet06` or `mainnet01` network.
 
    ```bash
    pact --apireq simple-call.yaml --local | curl -X POST -H "Content-Type: application/json" \
@@ -172,7 +172,7 @@ The `@kadena/client` library implements a TypeScript-based API for interacting w
 The library provides functions that simplify building transactions with Pact commands and connecting to blockchain nodes.
 
 You should note that creating the client connection is separate from using the `Pact.builder` function to construct transactions.
-This example calls the `greet` function defined in the `simplemodule` that's been deployed in the `free` namespace on the `testnet04` network.
+This example calls the `greet` function defined in the `simplemodule` that's been deployed in the `free` namespace on the `testnet06` network.
 
 ```javascript
 import { Pact, createClient } from '@kadena/client';
@@ -186,7 +186,7 @@ const command = async (functionName: string) => {
       chainId: '1',
       gasLimit: 2500,
     })
-    .setNetworkId('testnet04')
+    .setNetworkId('testnet06')
     .createTransaction();
 
   try {

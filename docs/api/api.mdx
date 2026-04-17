@@ -62,8 +62,8 @@ The Chainweb peer-to-peer API includes the following endpoints:
 
 ### Base URL
 
-The base URL for peer-to-peer API endpoints typically take the form of `<hostname>/chainweb/0.0/mainnet01` where the `<hostname>` is the IP address or domain name of a Chainweb node in the Kadena public blockchain network. 
-Similarly, the base URL for peer-to-peer endpoints in the Kadena test network is typically `<hostname>/chainweb/0.0/testnet04` where the `<hostname>` is the IP address or domain name of a Chainweb node in the Kadena test network.
+The base URL for peer-to-peer API endpoints typically take the form of `<hostname>/chainweb/0.0/mainnet01` where the `<hostname>` is the IP address or domain name of a Chainweb node in the Kadena public blockchain network.
+Similarly, the base URL for peer-to-peer endpoints in the Kadena test network is typically `<hostname>/chainweb/0.0/testnet06` where the `<hostname>` is the IP address or domain name of a Chainweb node in the Kadena test network.
 If you're running a local development environment, you can typically replace `<hostname>` with `localhost:8080` to connect to the API and specify `development` as the network name.
 
 ## Service API
@@ -102,8 +102,8 @@ The service API also includes endpoints for the following types of jobs:
 ### Base URL
 
 Because the service API is configurable for individual nodes, the base URL for service API endpoints can vary.
-For bootstrap nodes, service API endpoints typically take the form of `api.<hostname>/chainweb/0.0/mainnet01` where the `<hostname>` is the IP address or domain name of a Chainweb node in the Kadena public blockchain network. 
-Similarly, the base URL for service API endpoints in the Kadena test network is typically `api.testnet.<hostname>/chainweb/0.0/testnet04` where the `<hostname>` is the IP address or domain name of a Chainweb node in the Kadena test network.
+For bootstrap nodes, service API endpoints typically take the form of `api.<hostname>/chainweb/0.0/mainnet01` where the `<hostname>` is the IP address or domain name of a Chainweb node in the Kadena public blockchain network.
+Similarly, the base URL for service API endpoints in the Kadena test network is typically `api.testnet.<hostname>/chainweb/0.0/testnet06` where the `<hostname>` is the IP address or domain name of a Chainweb node in the Kadena test network.
 If you're running a local development environment, you can typically replace `<hostname>` with `localhost:8080` to connect to the API and, if necessary, specify `development` as the network name.
 
 Note that if you send requests to Pact endpoints through the service API to query information from a specific chain, you should include the chain identifier in the route prefix.

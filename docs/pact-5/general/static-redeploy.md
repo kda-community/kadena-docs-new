@@ -32,7 +32,7 @@ The function returns the unit value `()` if redeployment is successful.
 
 ## Examples
 
-The following example demonstrates how to redeploy the `pistolas-vote` module that was originally deployed in the `free` namespace on `testnet04` and chain `3` using a YAML transaction request file.
+The following example demonstrates how to redeploy the `pistolas-vote` module that was originally deployed in the `free` namespace on `testnet06` and chain `3` using a YAML transaction request file.
 
 ```yaml
 code: |
@@ -47,7 +47,7 @@ publicMeta:
   gasLimit: 100000
   gasPrice: 0.0000001
   ttl: 7200
-networkId: "testnet04"
+networkId: "testnet06"
 keyPairs:
   - public: "401d6346...114c5ae4"
     secret: "94df4ba5...2709fd1a"
@@ -66,5 +66,5 @@ For example:
 ```bash
 pact --apireq vote-redeploy.yaml > redeploy.json
 curl -X POST -H "Content-Type: application/json" -d "@redeploy.json" \
- https://api.testnet.chainweb.com/chainweb/0.0/testnet04/chain/3/pact/api/v1/send
+ https://api.testnet.chainweb.com/chainweb/0.0/testnet06/chain/3/pact/api/v1/send
 ```

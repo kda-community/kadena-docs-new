@@ -55,7 +55,7 @@ The response header parameters are the same for all successful and unsuccessful 
 You can send a request to add a peer to the peer database with a call to the `/mempool/peer` endpoint similar to the following:
 
 ```Postman
-PUT https://us1.testnet.chainweb.com/chainweb/0.0/testnet04/chain/4/mempool/peer`
+PUT https://us1.testnet.chainweb.com/chainweb/0.0/testnet06/chain/4/mempool/peer`
 ```
 
 The request body for adding a peer contains parameters similar to the following:

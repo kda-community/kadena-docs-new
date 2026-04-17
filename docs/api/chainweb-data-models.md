@@ -59,7 +59,7 @@ It's duplicated here as a quick reference.
 | epochStart (required) | integer >= 0 | Specifies a timestamp in microseconds since the start of the UNIX epoch.
 | adjacents (required) | object | Records the block hashes of the adjacent parents of the block. This is represented as an associative array that maps the adjacent chain ids to the respective block hash. Each block hash is a Base64Url-encoded string—without padding—that consists of 43 characters from the `a-zA-Z0-9_-` character set.
 | payloadHash (required) | string | Specifies the block payload hash. The payload hash is a Base64Url-encoded string—without padding—that consists of 43 characters from the `a-zA-Z0-9_-` character set.
-| chainwebVersion&nbsp;(required) | enum | Specifies the Chainweb network version identifier for the Kadena network. The valid values are "test-singleton", "development", "mainnet01", and "testnet04".
+| chainwebVersion&nbsp;(required) | enum | Specifies the Chainweb network version identifier for the Kadena network. The valid values are "test-singleton", "development", "mainnet01", and "testnet06".
 | target (required) | string | Specifies the proof-of-work target for the block. The proof-of-work target for a block is a Base64Url-encoded string—without padding—that consists of 43 characters from the `a-zA-Z0-9_-` character set. The string is a 256-bit little endian encoding of the numerical value.
 | nonce (required) | string | Specifies the proof-of-work nonce for the block. This value is computed by the miner such that the block hash is smaller than the target.
 
@@ -189,7 +189,7 @@ vPELrRZEn3km96owfL0ANJbOBeeUGnEBOx0AGCTZsdA
 | nodeNumberOfChains&nbsp;(required) | integer&nbsp;>=&nbsp;10 | Number of chains in the network the node is part of.
 | nodeApiVersion (required) | string | Chainweb API version information for the node.
 | nodeChains (required) | Array&nbsp;of&nbsp;strings | Chain identifiers for the chains in the network the node is part of.
-| nodeVersion (required) | string | Network identifier for the network the node is part of. The valid values are  "test-singleton", "development", "mainnet01", and "testnet04".
+| nodeVersion (required) | string | Network identifier for the network the node is part of. The valid values are  "test-singleton", "development", "mainnet01", and "testnet06".
 | nodeGraphHistory&nbsp;(required) | Array&nbsp;of&nbsp;integers | Array of all chain graphs indexed by the height of the first block with the respective graph. Graphs are encoded as adjacency lists.
 
 ```json

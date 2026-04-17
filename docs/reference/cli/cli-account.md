@@ -181,7 +181,7 @@ kadena account details --json --account=pistolas-testnet --network=testnet --cha
 This command returns output similar to the following:
 
 ```bash
-Details of account "pistolas-testnet" on network "testnet04"
+Details of account "pistolas-testnet" on network "testnet06"
 [
   {
     "0": {
@@ -214,8 +214,8 @@ For example:
 You can press Return to accept the default and display account details similar to the following:
 
 ```bash
-Details of account "k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e" on network "testnet04"
-Name                             ChainID Public Keys                                                      Predicate Balance        
+Details of account "k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e" on network "testnet06"
+Name                             ChainID Public Keys                                                      Predicate Balance
 k:bbccc99ec9ee....4e750ba424d35e 1       bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e keys-all  305.98040161094
 
 Executed:
@@ -307,7 +307,7 @@ Transaction explorer URL for
 Chain ID "3" : https://explorer.chainweb.com/testnet/tx/dk-speer0XDAFika0az2k8i4_AzlrtjMPGHZ6gIlF0A
 ✔ Funding account successful.
 
-Account "k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e" funded with 10 coin(s) on Chain ID(s) "3" in testnet04 network.
+Account "k:bbccc99ec9eeed17d60159fbb88b09e30ec5e63226c34544e64e750ba424d35e" funded with 10 coin(s) on Chain ID(s) "3" in testnet06 network.
 Use "kadena account details" command to check the balance.
 ```
 

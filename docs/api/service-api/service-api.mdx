@@ -43,8 +43,8 @@ The Chainweb service API includes the following types of endpoints:
 ## Base URL
 
 Because the service API is configurable for individual nodes, the base URL for service API endpoints can vary.
-For bootstrap nodes, service API endpoints typically take the form of `api.<hostname>/chainweb/0.0/mainnet01` where the `<hostname>` is the IP address or domain name of a Chainweb node in the Kadena public blockchain network. 
-Similarly, the base URL for service API endpoints in the Kadena test network is typically `api.testnet.<hostname>/chainweb/0.0/testnet04` where the `<hostname>` is the IP address or domain name of a Chainweb node in the Kadena test network.
+For bootstrap nodes, service API endpoints typically take the form of `api.<hostname>/chainweb/0.0/mainnet01` where the `<hostname>` is the IP address or domain name of a Chainweb node in the Kadena public blockchain network.
+Similarly, the base URL for service API endpoints in the Kadena test network is typically `api.testnet.<hostname>/chainweb/0.0/testnet06` where the `<hostname>` is the IP address or domain name of a Chainweb node in the Kadena test network.
 If you're running a local development environment, you can typically replace `<hostname>` with `localhost:8080` to connect to the API and, if necessary, specify `development` as the network name.
 
 Note that the Pact endpoints for any given chain identifier use the route prefix `/chain/{chainId}/pact/` in addition to the base URL.

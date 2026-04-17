@@ -53,7 +53,7 @@ The response header parameters are the same for all successful and unsuccessful 
 You can send a request to publish a cut on a node with a call to the `/cut` endpoint similar to the following:
 
 ```Postman
-PUT https://sfchainweb.example.com/chainweb/0.0/testnet04/cut
+PUT https://sfchainweb.example.com/chainweb/0.0/testnet06/cut
 ```
 
 The request body for publishing a cut contains parameters similar to the following:

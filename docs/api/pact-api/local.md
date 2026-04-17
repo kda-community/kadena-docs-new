@@ -75,13 +75,13 @@ If you specify the `preflight` query parameter, the command results include the 
 You can send a request to the Kadena test network and chain 1 by calling the `/local` endpoint like this:
 
 ```Postman
-POST http://api.testnet.chainweb.com/chainweb/0.0/testnet04/chain/1/pact/api/v1/local/
+POST http://api.testnet.chainweb.com/chainweb/0.0/testnet06/chain/1/pact/api/v1/local/
 ```
 
 The request body for this example looks like this:
 
 ```json
-{"cmd":"{\"signers\":[{\"pubKey\":\"1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\",\"clist\":[{\"name\":\"coin.TRANSFER\",\"args\":[\"k:1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\",\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\",3]},{\"name\":\"coin.GAS\",\"args\":[]}]}],\"meta\":{\"creationTime\":1726525836,\"ttl\":32441,\"chainId\":\"1\",\"gasPrice\":1.9981e-7,\"gasLimit\":2320,\"sender\":\"k:1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\"},\"nonce\":\"chainweaver\",\"networkId\":\"testnet04\",\"payload\":{\"exec\":{\"code\":\"(coin.transfer \\\"k:1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\\\" \\\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\\\" 3.0)\",\"data\":null}}}","hash":"SLiinT5fAv8eCixT9qwbBHZgO4HxVB-p5rYyt_AxG94","sigs":[{"sig":"34de39e545f03116e7c8c1150e62be29874e0efd0e24ea906cb6cbd5adef28b137c01a85ac883489c7757f9335276ec360734ff74d98e195079d391a9105020d"}]}
+{"cmd":"{\"signers\":[{\"pubKey\":\"1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\",\"clist\":[{\"name\":\"coin.TRANSFER\",\"args\":[\"k:1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\",\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\",3]},{\"name\":\"coin.GAS\",\"args\":[]}]}],\"meta\":{\"creationTime\":1726525836,\"ttl\":32441,\"chainId\":\"1\",\"gasPrice\":1.9981e-7,\"gasLimit\":2320,\"sender\":\"k:1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\"},\"nonce\":\"chainweaver\",\"networkId\":\"testnet06\",\"payload\":{\"exec\":{\"code\":\"(coin.transfer \\\"k:1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\\\" \\\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\\\" 3.0)\",\"data\":null}}}","hash":"SLiinT5fAv8eCixT9qwbBHZgO4HxVB-p5rYyt_AxG94","sigs":[{"sig":"34de39e545f03116e7c8c1150e62be29874e0efd0e24ea906cb6cbd5adef28b137c01a85ac883489c7757f9335276ec360734ff74d98e195079d391a9105020d"}]}
 ```
 
 The request returns command results similar to the following:
@@ -131,7 +131,7 @@ The request returns command results similar to the following:
 You can specify the `preflight` query parameter in the API request like this:
 
 ```Postman
-http://api.testnet.chainweb.com/chainweb/0.0/testnet04/chain/1/pact/api/v1/local/?preflight=true
+http://api.testnet.chainweb.com/chainweb/0.0/testnet06/chain/1/pact/api/v1/local/?preflight=true
 ```
 
 The request returns preflight results similar to the following:

@@ -170,7 +170,7 @@ The command then displays the results in JSON format:
     },
     {
       "network": "testnet",
-      "networkId": "testnet04",
+      "networkId": "testnet06",
       "networkHost": "https://api.testnet.chainweb.com",
       "networkExplorerUrl": "https://explorer.chainweb.com/testnet/tx/"
     }

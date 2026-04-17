@@ -47,7 +47,7 @@ If the request is successful, the response returns `application/json` content wi
 You can send a request to the Kadena test network and chain 1 by calling the `/send` endpoint like this:
 
 ```Postman
-POST http://api.testnet.chainweb.com/chainweb/0.0/testnet04/chain/1/pact/api/v1/send
+POST http://api.testnet.chainweb.com/chainweb/0.0/testnet06/chain/1/pact/api/v1/send
 ```
 
 The request body for this example looks like this:
@@ -56,7 +56,7 @@ The request body for this example looks like this:
 {
     "cmds": [
         {
-          "cmd":"{\"signers\":[{\"pubKey\":\"58705e8699678bd15bbda2cf40fa236694895db614aafc82cf1c06c014ca963c\",\"clist\":[{\"name\":\"coin.TRANSFER\",\"args\":[\"k:58705e8699678bd15bbda2cf40fa236694895db614aafc82cf1c06c014ca963c\",\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\",2]},{\"name\":\"coin.GAS\",\"args\":[]}]}],\"meta\":{\"creationTime\":1726775463,\"ttl\":35628,\"chainId\":\"1\",\"gasPrice\":7.993e-8,\"gasLimit\":2320,\"sender\":\"k:58705e8699678bd15bbda2cf40fa236694895db614aafc82cf1c06c014ca963c\"},\"nonce\":\"chainweaver\",\"networkId\":\"testnet04\",\"payload\":{\"exec\":{\"code\":\"(coin.transfer \\\"k:58705e8699678bd15bbda2cf40fa236694895db614aafc82cf1c06c014ca963c\\\" \\\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\\\" 2.0)\",\"data\":null}}}","hash":"vnelRuUfVvSGOu7Lczv1MluELMICdPrBaevJzKOj-oo","sigs":[
+          "cmd":"{\"signers\":[{\"pubKey\":\"58705e8699678bd15bbda2cf40fa236694895db614aafc82cf1c06c014ca963c\",\"clist\":[{\"name\":\"coin.TRANSFER\",\"args\":[\"k:58705e8699678bd15bbda2cf40fa236694895db614aafc82cf1c06c014ca963c\",\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\",2]},{\"name\":\"coin.GAS\",\"args\":[]}]}],\"meta\":{\"creationTime\":1726775463,\"ttl\":35628,\"chainId\":\"1\",\"gasPrice\":7.993e-8,\"gasLimit\":2320,\"sender\":\"k:58705e8699678bd15bbda2cf40fa236694895db614aafc82cf1c06c014ca963c\"},\"nonce\":\"chainweaver\",\"networkId\":\"testnet06\",\"payload\":{\"exec\":{\"code\":\"(coin.transfer \\\"k:58705e8699678bd15bbda2cf40fa236694895db614aafc82cf1c06c014ca963c\\\" \\\"k:4fe7981d36997c2a327d0d3ce961d3ae0b2d38185ac5e5cd98ad90140bc284d0\\\" 2.0)\",\"data\":null}}}","hash":"vnelRuUfVvSGOu7Lczv1MluELMICdPrBaevJzKOj-oo","sigs":[
             {"sig":"cf0c345d06c251a34082ac95d06e34e9e96593799f18e743c8094de063c297bfbab5ec40a074e9ba257a32692cb6e7edf055f5abe8861c3b51150117736c5d0c"}
           ]
         }

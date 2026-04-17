@@ -18,7 +18,7 @@ The following are the most common causes of potential issues when you have probl
 ### Network and chain identifiers
   
 You should verify that you are using the correct network identifier and chain in the call.
-Most API endpoints require you to specify the network identifier, such as `testnet04` or `mainnet01`, and a specific chain identifier in the request.
+Most API endpoints require you to specify the network identifier, such as `testnet06` or `mainnet01`, and a specific chain identifier in the request.
 If you specify testnet or mainnet or the wrong chain identifier, you'll receive a Bad Request or empty response instead of the information you expect.
 If you're submitting or checking the status of a transaction, be sure you've specified the correct chain identifier, and, if applicable, that there are sufficient funds to pay transaction fees on the network and chain you specify.
 

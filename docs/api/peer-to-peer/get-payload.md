@@ -75,7 +75,7 @@ If there are no results matching the request criteria, the response returns the 
 You can send a payload request to a bootstrap node for the Kadena test network and chain id 18 with a call like this:
 
 ```Postman
-GET https://us1.testnet.chainweb.com/chainweb/0.0/testnet04/chain/18/payload/BKFz8a2AZGtZQPlp2xPRfe7ohlnOuzV2NbIEB3cFwI8
+GET https://us1.testnet.chainweb.com/chainweb/0.0/testnet06/chain/18/payload/BKFz8a2AZGtZQPlp2xPRfe7ohlnOuzV2NbIEB3cFwI8
 ```
 
 The response header for this request looks like this for `chainweb-node` version 2.26.1:
@@ -107,7 +107,7 @@ In this example, the payload data includes three transactions:
 In the following example, the payload hash doesn't include any transactions:
 
 ```Postman
-GET https://us1.testnet.chainweb.com/chainweb/0.0/testnet04/chain/18/payload/PB4yVhQo7vosXUH9Pik2z_OyJzn_fH0ChH-WOygOKuw
+GET https://us1.testnet.chainweb.com/chainweb/0.0/testnet06/chain/18/payload/PB4yVhQo7vosXUH9Pik2z_OyJzn_fH0ChH-WOygOKuw
 ```
 
 The response body indicates the empty block payload like this:

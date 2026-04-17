@@ -135,10 +135,10 @@ This request returns one item in the response body:
 }
 ```
 
-You can send a request to the Kadena test network—testnet04—and chain 18 by calling the testnet service endpoint like this:
+You can send a request to the Kadena test network—testnet06—and chain 18 by calling the testnet service endpoint like this:
 
 ```Postman
-POST http://api.testnet.chainweb.com/chainweb/0.0/testnet04/chain/18/hash/branch
+POST http://api.testnet.chainweb.com/chainweb/0.0/testnet06/chain/18/hash/branch
 ```
 
 The request body for this query is:

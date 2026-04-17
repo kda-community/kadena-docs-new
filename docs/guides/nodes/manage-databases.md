@@ -103,16 +103,16 @@ To reduce storage for Chainweb node databases:
    - `--from` to specify the path to the database directory you want to compact. You should specify the database root directory that contains the `0/sqlite` and `0/rocksdb` subdirectories. For example, the `data/state/chainweb/db` directory is the root directory for the `data/state/chainweb/db/0/sqlite` directory and the `data/state/chainweb/db/0/rocksdb` directory.
    - `--to` to specify the path to the compacted database. The compact program writes the compacted databases to the `$DIR/0/sqlite` and `$DIR/0/rocksdb` subdirectories within the directory you specify.
    - `--log-dir` to specify the directory where you want the `compact` program to put the log files it creates, one for each chain. If the directory doesn’t exist, the `compact` program creates it. These logs can be useful for debugging if something goes wrong.
-   - `--chainweb-version` to specify the network identifier for the node. This argument is optional if you're compacting a database for the `mainnet01` network. If you're compacting a database for another network—for example, the Kadena test network—you must specify the network identifier. Valid values are "`development`", "`testnet04`", and "`mainnet01`".
+   - `--chainweb-version` to specify the network identifier for the node. This argument is optional if you're compacting a database for the `mainnet01` network. If you're compacting a database for another network—for example, the Kadena test network—you must specify the network identifier. Valid values are "`development`", "`testnet06`", and "`mainnet01`".
 
    For example, if you are using the default location for the database directory and a node connected to the Kadena test network, run a command similar to the following:
 
    ```bash
-   compact --from ~/.local/share/chainweb-node/testnet04 --to ~/.local/share/chainweb-node/compact-db --log-dir /tmp/compaction-log-files --chainweb-version testnet04
+   compact --from ~/.local/share/chainweb-node/testnet06 --to ~/.local/share/chainweb-node/compact-db --log-dir /tmp/compaction-log-files --chainweb-version testnet06
    ```
 
-   Note that the location of the Chainweb root database directory—`~/.local/share/chainweb-node/testnet04` in this example—depends on the configuration of the node.
-   If you haven't specified a location in the configuration file, the default location is `~/.local/share/chainweb-node/{chainweb-network-id}`, for example `~/.local/share/chainweb-node/testnet04` for a node in the Kadena test network.
+   Note that the location of the Chainweb root database directory—`~/.local/share/chainweb-node/testnet06` in this example—depends on the configuration of the node.
+   If you haven't specified a location in the configuration file, the default location is `~/.local/share/chainweb-node/{chainweb-network-id}`, for example `~/.local/share/chainweb-node/testnet06` for a node in the Kadena test network.
 
    If your node isn't synchronized with the current block height of the network or doesn't have enough history to ensure proper validation, you might see the `compact` operation fail with any error similar to the following:
 

@@ -59,7 +59,7 @@ To check transaction status using `kadena-cli`:
 If you're familar with TypeScript or JavaScript, you can use functions from the Kadena client library to write a script similar to the following:
 
 ```typescript
-const NETWORK_ID = 'testnet04';
+const NETWORK_ID = 'testnet06';
 const CHAIN_ID = '1';
 const API_HOST = `https://api.testnet.chainweb.com/chainweb/0.0/${NETWORK_ID}/chain/${CHAIN_ID}/pact`;
  

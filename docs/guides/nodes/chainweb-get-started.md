@@ -458,8 +458,8 @@ To edit the node configuration:
          configuration: {}
          enabled: true
        directory: /tmp/my-backups
-     chainwebVersion: testnet04
-     
+     chainwebVersion: testnet06
+
      fullHistoricPactState: false
      
      databaseDirectory: /usr/local/share/chainweb/db

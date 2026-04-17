@@ -57,7 +57,7 @@ If the request is successful, the response returns `application/json` content wi
 You can send a request to the Kadena test network and chain 1 by calling the `/listen` endpoint like this:
 
 ```Postman
-POST https://api.testnet.chainweb.com/chainweb/0.0/testnet04/chain/1/pact/api/v1/listen
+POST https://api.testnet.chainweb.com/chainweb/0.0/testnet06/chain/1/pact/api/v1/listen
 ```
 
 For this example, the request body specifies one request key to listen for:

@@ -78,6 +78,7 @@ Values up to 0x0000FFFF are reserved for production versions, including includes
 | 0x00000005 | mainnet01
 | 0x00000001 | development
 | 0x00000007 | testnet04
+| 0x00000008 | testnet06
 
 ### Other
 

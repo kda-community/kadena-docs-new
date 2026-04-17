@@ -62,7 +62,7 @@ If the request is successful, the response returns `application/json` content wi
 You can send a request to retrieve information about the memory pool portion of the peer-to-peer network with a call to the `/mempool/peer` endpoint similar to the following:
 
 ```Postman
-GET https://us1.testnet.chainweb.com/chainweb/0.0/testnet04/chain/4/mempool/peer?limit=3
+GET https://us1.testnet.chainweb.com/chainweb/0.0/testnet06/chain/4/mempool/peer?limit=3
 ```
 
 The response body for this request returns the peer information for the nodes in the `mempool` portion of the peer-to-peer network for the specified node and chain.

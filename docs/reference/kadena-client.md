@@ -164,7 +164,7 @@ You can use [@kadena/pactjs-cli](https://www.npmjs.com/package/@kadena/pactjs-cl
 To create a type definition file for the `coin` contract:
 
 ```bash
-npx @kadena/pactjs-cli contract-generate --contract coin --api https://api.testnet.chainweb.com/chainweb/0.0/testnet04/chain/0/pact;
+npx @kadena/pactjs-cli contract-generate --contract coin --api https://api.testnet.chainweb.com/chainweb/0.0/testnet06/chain/0/pact;
 ```
 
 ## Creating commands
@@ -488,7 +488,7 @@ Pact.builder.execution(code).setNetworkId(networkId): IBuilder
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| networkId | string | Network identifier, for example, "mainnet01" or "testnet04". |
+| networkId | string | Network identifier, for example, "mainnet01" or "testnet06". |
 
 #### Examples
 
@@ -496,7 +496,7 @@ Pact.builder.execution(code).setNetworkId(networkId): IBuilder
 Pact.builder
   .execution('(coin.transfer "alice" "bob" 1.1)')
   // "bob is paying gas fee"
-  .setNetworkId("testnet04"): IBuilder;
+  .setNetworkId("testnet06"): IBuilder;
 ```
 
 ## Creating transactions
@@ -523,7 +523,7 @@ const transaction = Pact.builder
   .createTransaction();
 
 const output = {
-  cmd: '{"payload":{"exec":{"code":"(coin.transfer \\"k:dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46\\" \\"k:2f48080efe54e6eb670487f664bcaac7684b4ebfcfc8a3330ef080c9c97f7e11\\" 1.0)","data":{}}},"nonce":"kjs:nonce:1711376792115","signers":[{"pubKey":"dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46","scheme":"ED25519","clist":[{"name":"coin.GAS","args":[]},{"name":"coin.TRANSFER","args":["k:dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46","k:2f48080efe54e6eb670487f664bcaac7684b4ebfcfc8a3330ef080c9c97f7e11",{"decimal":"1"}]}]}],"meta":{"gasLimit":2500,"gasPrice":1e-8,"sender":"k:dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46","ttl":28800,"creationTime":1711376792,"chainId":"0"},"networkId":"testnet04"}',
+  cmd: '{"payload":{"exec":{"code":"(coin.transfer \\"k:dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46\\" \\"k:2f48080efe54e6eb670487f664bcaac7684b4ebfcfc8a3330ef080c9c97f7e11\\" 1.0)","data":{}}},"nonce":"kjs:nonce:1711376792115","signers":[{"pubKey":"dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46","scheme":"ED25519","clist":[{"name":"coin.GAS","args":[]},{"name":"coin.TRANSFER","args":["k:dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46","k:2f48080efe54e6eb670487f664bcaac7684b4ebfcfc8a3330ef080c9c97f7e11",{"decimal":"1"}]}]}],"meta":{"gasLimit":2500,"gasPrice":1e-8,"sender":"k:dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46","ttl":28800,"creationTime":1711376792,"chainId":"0"},"networkId":"testnet06"}',
   hash: 'xYePm_YgO6-T9yIlCZWzOt2s4CkZcQwqWx9Iu5tVSLI',
   sigs: [undefined],
 };
@@ -585,7 +585,7 @@ const output = {
     creationTime: 1711448853,
     chainId: '0',
   },
-  networkId: 'testnet04',
+  networkId: 'testnet06',
 };
 ```
 
@@ -757,7 +757,7 @@ createWalletConnectSign(client, session, walletConnectChainId): (transaction: IU
 | --- | --- | --- |
 | client | Client | The `wallet-connect` client object. |
 | session | SessionTypes.Struct | The wallet-connect session object. |
-| networkId | string | The network identifier, for example, `mainnet01` or `testnet04`. The identifier can include the `kadena:` prefix, for example, `kadena:mainnet01`. |
+| networkId | string | The network identifier, for example, `mainnet01` or `testnet06`. The identifier can include the `kadena:` prefix, for example, `kadena:mainnet01`. |
 
 ##### Examples
 
@@ -783,7 +783,7 @@ createWalletConnectQuicksign(client, session, walletConnectChainId): ISignFuncti
 | --- | --- | --- |
 | client | Client | The `wallet-connect` client object. |
 | session | SessionTypes.Struct | The wallet-connect session object. |
-| networkId | string | The network identifier, for example, `mainnet01` or `testnet04`. The identifier can include the `kadena:` prefix, for example, `kadena:mainnet01`. |
+| networkId | string | The network identifier, for example, `mainnet01` or `testnet06`. The identifier can include the `kadena:` prefix, for example, `kadena:mainnet01`. |
 
 ##### Examples
 
@@ -1056,7 +1056,7 @@ const client = createClient(({ chainId, networkId }) => {
   switch (networkId) {
     case 'mainnet01':
       return `http://my-node-url/chainweb/0.0/${networkId}/chain/{${chainId}}/pact`;
-    case 'testnet04':
+    case 'testnet06':
       return `http://my-test-node-url/chainweb/0.0/${networkId}/chain/{${chainId}}/pact`;
     default:
       throw new Error('UNKNOWN_NETWORK');
@@ -1551,7 +1551,7 @@ The return value is also a `CommandReducer` function that you can pass to anothe
 const pactCommand = composePactCommand(
   { payload: { exec: { code: '(+ 1 1)' } } },
   (cmd) => ({ ...cmd, meta: { chainId: '1' } }),
-  { networkId: 'testnet04' },
+  { networkId: 'testnet06' },
 )();
 
 const pactCommand = {
@@ -1564,7 +1564,7 @@ const pactCommand = {
     creationTime: 1690416000,
     chainId: '1',
   },
-  networkId: 'testnet04',
+  networkId: 'testnet06',
   nonce: 'kjs:nonce:1690416000000',
   signers: [],
 };
@@ -1822,7 +1822,7 @@ For example:
 composePactCommand(
   execution('(coin.transfer "alice" "bob" 1.1)'),
   // "bob is paying gas fee"
-  setNetworkId('testnet04'),
+  setNetworkId('testnet06'),
 );
 ```
 
@@ -1851,7 +1851,7 @@ const pactCommand = composePactCommand(
 const transaction = createTransaction(pactCommand);
 
 const output = {
-  cmd: '{"payload":{"exec":{"code":"(coin.transfer \\"k:dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46\\" \\"k:2f48080efe54e6eb670487f664bcaac7684b4ebfcfc8a3330ef080c9c97f7e11\\" 1.0)","data":{}}},"nonce":"kjs:nonce:1711376792115","signers":[{"pubKey":"dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46","scheme":"ED25519","clist":[{"name":"coin.GAS","args":[]},{"name":"coin.TRANSFER","args":["k:dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46","k:2f48080efe54e6eb670487f664bcaac7684b4ebfcfc8a3330ef080c9c97f7e11",{"decimal":"1"}]}]}],"meta":{"gasLimit":2500,"gasPrice":1e-8,"sender":"k:dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46","ttl":28800,"creationTime":1711376792,"chainId":"0"},"networkId":"testnet04"}',
+  cmd: '{"payload":{"exec":{"code":"(coin.transfer \\"k:dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46\\" \\"k:2f48080efe54e6eb670487f664bcaac7684b4ebfcfc8a3330ef080c9c97f7e11\\" 1.0)","data":{}}},"nonce":"kjs:nonce:1711376792115","signers":[{"pubKey":"dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46","scheme":"ED25519","clist":[{"name":"coin.GAS","args":[]},{"name":"coin.TRANSFER","args":["k:dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46","k:2f48080efe54e6eb670487f664bcaac7684b4ebfcfc8a3330ef080c9c97f7e11",{"decimal":"1"}]}]}],"meta":{"gasLimit":2500,"gasPrice":1e-8,"sender":"k:dc20ab800b0420be9b1075c97e80b104b073b0405b5e2b78afd29dd74aaf5e46","ttl":28800,"creationTime":1711376792,"chainId":"0"},"networkId":"testnet06"}',
   hash: 'xYePm_YgO6-T9yIlCZWzOt2s4CkZcQwqWx9Iu5tVSLI',
   sigs: [undefined],
 };

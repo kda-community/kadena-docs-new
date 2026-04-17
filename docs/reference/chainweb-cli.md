@@ -41,7 +41,7 @@ Remote URLs must start with either "http://" or "https://". |
 
 | Use this option | To do this |
 | --------------- | ---------- |
-| -v, --chainweb-version _networkId_ | Specify the Chainweb network identifier for the node. Valid values are `development`, `testnet04`, `testnet05`, and `mainnet01`. The default is `mainnet01`. |
+| -v, --chainweb-version _networkId_ | Specify the Chainweb network identifier for the node. Valid values are `development`, `testnet06`, `testnet05`, and `mainnet01`. The default is `mainnet01`. |
 |--database-directory _path_ | Specify the path to the `chainweb-node` database root folder. |
 | --header-stream | Enable the endpoint for streaming block updates. For information about streaming block updates, see [Stream block header event updates](/api/service-api/api-update-event-stream). |
 | --no-header-stream | Unset the `--header-stream` option and disable streaming block updates. |

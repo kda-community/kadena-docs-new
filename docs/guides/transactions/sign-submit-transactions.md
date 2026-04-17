@@ -189,8 +189,8 @@ To sign and submit a transaction:
    cat unsigned-vote-function.yaml | pact add-sig pistolas.yaml > tx-signed-pistolas.json
    ```  
 
-1. Use `curl` to connect to the `/send` endpoint on the `development`, `testnet04` or `mainnet01` network.
-   
+1. Use `curl` to connect to the `/send` endpoint on the `development`, `testnet06` or `mainnet01` network.
+
    For example, the following command connects to the `/send` endpoint on the local `development` network:
 
    ```bash

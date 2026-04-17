@@ -82,10 +82,10 @@ If you specified `application/json` in the Accept header of the request and ther
 
 ## Examples
 
-You can send a request to the Kadena test network—testnet04—and chain 18 by calling the testnet service endpoint like this:
+You can send a request to the Kadena test network—testnet06—and chain 18 by calling the testnet service endpoint like this:
 
 ```Postman
-GET http://api.testnet.chainweb.com/chainweb/0.0/testnet04/chain/18/header?limit=5
+GET http://api.testnet.chainweb.com/chainweb/0.0/testnet06/chain/18/header?limit=5
 ```
 
 With the Accept header set to `application/json`, this request returns five items in the response body and each item is a base64Url-encoded string like this:
@@ -124,7 +124,7 @@ With the Accept header set to `application/json;blockheader-encoding=object`, ea
             "chainId": 18,
             "weight": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
             "height": 332604,
-            "chainwebVersion": "testnet04",
+            "chainwebVersion": "testnet06",
             "epochStart": 1563388117613832,
             "featureFlags": 0,
             "hash": "VsDfA3fyhpKdPR-KWzBARmh5htuBLnQe7ZXcLIphSaw"

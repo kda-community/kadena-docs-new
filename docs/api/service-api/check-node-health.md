@@ -90,7 +90,7 @@ If the request is successful, the response returns `application/json` content wi
 | nodeNumberOfChains&nbsp;(required) | integer&nbsp;>=&nbsp;10 | Specifies the number of chains in the network the node is part of. |
 | nodePackageVersion&nbsp;(required) | string | Specifies the release package version for the `chainweb-node` software package running on the node. |
 | nodeServiceDate&nbsp;(required) | string | Specifies the next service date for updating the `chainweb-node` software package running on the node. |
-| nodeVersion&nbsp;(required) | string | Specifies the network identifier for the network the node is part of. The valid values are  "test-singleton", "development", "mainnet01", and "testnet04".|
+| nodeVersion&nbsp;(required) | string | Specifies the network identifier for the network the node is part of. The valid values are  "test-singleton", "development", "mainnet01", and "testnet06".|
 
 ### Examples
 

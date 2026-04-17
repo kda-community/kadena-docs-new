@@ -39,7 +39,7 @@ Requests to `PUT https://{baseURL}/cut/peer` return the following response codes
 You can send a request to add a peer to the peer database on a remote with a call to the `/cut/peer` endpoint similar to the following:
 
 ```Postman
-PUT https://us1.testnet.chainweb.com/chainweb/0.0/testnet04/cut/peer
+PUT https://us1.testnet.chainweb.com/chainweb/0.0/testnet06/cut/peer
 ```
 
 The request body for adding a peer contains parameters similar to the following:

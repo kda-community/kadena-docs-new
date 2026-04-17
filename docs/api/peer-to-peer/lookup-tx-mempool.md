@@ -61,7 +61,7 @@ If the request is successful, the response returns `application/json` content wi
 You can send a request to a bootstrap node for the Kadena test network and chain id 1 with a call like this:
 
 ```postman
-POST https://us1.testnet.chainweb.com/chainweb/0.0/testnet04/chain/1/mempool/lookup
+POST https://us1.testnet.chainweb.com/chainweb/0.0/testnet06/chain/1/mempool/lookup
 ```
 
 For this example, the request body consists of two request keys:
@@ -76,7 +76,7 @@ In this example, the first transaction is "Pending" and the second transaction i
 [
     {
         "tag": "Pending",
-        "contents": "{\"hash\":\"ptI7wQeOmOt-BER2KQGVd0o6axBpqbhMPQVkkq5YAyE\",\"sigs\":[{\"sig\":\"1569af1b56cddd4b853b7d49249c4c52d55e59e04910bfeb8aacbd02bfa0637bbe81b0f4b48ba8eb101fa0e8a276023fbfa57fa5a835741b346d574897052201\"}],\"cmd\":\"{\\\"signers\\\":[{\\\"pubKey\\\":\\\"1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\\\",\\\"clist\\\":[{\\\"name\\\":\\\"coin.TRANSFER\\\",\\\"args\\\":[\\\"k:1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\\\",\\\"k:58705e8699678bd15bbda2cf40fa236694895db614aafc82cf1c06c014ca963c\\\",10]},{\\\"name\\\":\\\"coin.GAS\\\",\\\"args\\\":[]}]}],\\\"meta\\\":{\\\"creationTime\\\":1721947429,\\\"ttl\\\":32441,\\\"chainId\\\":\\\"1\\\",\\\"gasPrice\\\":1.9981e-7,\\\"gasLimit\\\":2320,\\\"sender\\\":\\\"k:1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\\\"},\\\"nonce\\\":\\\"chainweaver\\\",\\\"networkId\\\":\\\"testnet04\\\",\\\"payload\\\":{\\\"exec\\\":{\\\"code\\\":\\\"(coin.transfer \\\\\\\"k:1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\\\\\\\" \\\\\\\"k:58705e8699678bd15bbda2cf40fa236694895db614aafc82cf1c06c014ca963c\\\\\\\" 10.0)\\\",\\\"data\\\":null}}}\"}"
+        "contents": "{\"hash\":\"ptI7wQeOmOt-BER2KQGVd0o6axBpqbhMPQVkkq5YAyE\",\"sigs\":[{\"sig\":\"1569af1b56cddd4b853b7d49249c4c52d55e59e04910bfeb8aacbd02bfa0637bbe81b0f4b48ba8eb101fa0e8a276023fbfa57fa5a835741b346d574897052201\"}],\"cmd\":\"{\\\"signers\\\":[{\\\"pubKey\\\":\\\"1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\\\",\\\"clist\\\":[{\\\"name\\\":\\\"coin.TRANSFER\\\",\\\"args\\\":[\\\"k:1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\\\",\\\"k:58705e8699678bd15bbda2cf40fa236694895db614aafc82cf1c06c014ca963c\\\",10]},{\\\"name\\\":\\\"coin.GAS\\\",\\\"args\\\":[]}]}],\\\"meta\\\":{\\\"creationTime\\\":1721947429,\\\"ttl\\\":32441,\\\"chainId\\\":\\\"1\\\",\\\"gasPrice\\\":1.9981e-7,\\\"gasLimit\\\":2320,\\\"sender\\\":\\\"k:1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\\\"},\\\"nonce\\\":\\\"chainweaver\\\",\\\"networkId\\\":\\\"testnet06\\\",\\\"payload\\\":{\\\"exec\\\":{\\\"code\\\":\\\"(coin.transfer \\\\\\\"k:1d5a5e10eb15355422ad66b6c12167bdbb23b1e1ef674ea032175d220b242ed4\\\\\\\" \\\\\\\"k:58705e8699678bd15bbda2cf40fa236694895db614aafc82cf1c06c014ca963c\\\\\\\" 10.0)\\\",\\\"data\\\":null}}}\"}"
     },
     {
         "tag": "Missing"

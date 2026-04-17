@@ -194,7 +194,7 @@ To create a program that checks an account balance:
    
        // To connect to the Kadena test network, replace the client URL with one
        // similar to the following:
-       // 'https://api.testnet.chainweb.com//chainweb/0.0/testnet04/chain/3/pact'
+       // 'https://api.testnet.chainweb.com//chainweb/0.0/testnet06/chain/3/pact'
 
        // Step 3: Send the request to the blockchain.
        const result = await client.local(transaction, {
@@ -284,11 +284,11 @@ To create a program that creates a new account:
    // Create a client to connect to the Kadena network. In this example, the client connects to
    // chain 3 in the Kadena development network.
    const client = createClient('http://127.0.0.1:8080/chainweb/0.0/development/chain/3/pact');
-   
-   // To create a client to interact with the Kadena test (testnet04) network, replace the  
+
+   // To create a client to interact with the Kadena test (testnet06) network, replace the
    // client URL with one similar to the following:
-   // https://api.testnet.chainweb.com//chainweb/0.0/testnet04/chain/3/pact
-   
+   // https://api.testnet.chainweb.com//chainweb/0.0/testnet06/chain/3/pact
+
    // Return an error if the required argument is missing:
    if (!process.argv[2]) {
      console.error('Specify a public key or Kadena account name.');

@@ -69,7 +69,7 @@ If the request is successful, the response returns `application/json` content wi
 You can send a request to a bootstrap node for the Kadena test network and chain id 18 with a call like this:
 
 ```Postman
-POST https://us1.chainweb.com/chainweb/0.0/testnet04/chain/18/payload/batch
+POST https://us1.chainweb.com/chainweb/0.0/testnet06/chain/18/payload/batch
 ```
 
 In this example, the request body includes a payload hash array for two payloads and three blook heights like this:
