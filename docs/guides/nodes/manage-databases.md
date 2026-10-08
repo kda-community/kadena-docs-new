@@ -1,5 +1,6 @@
 ---
 title: Manage node databases
+description: Describe how to manage Sqlite and RocksDB database of a Kadena node
 id: manage-databases
 ---
 
