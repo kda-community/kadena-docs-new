@@ -4,7 +4,7 @@ description:
   The `@kadena/kadena-cli` library provides commands for creating applications and interacting with the Kadena network interactively or by using scripts from the command-line. The commands in this section support creating a frontend application using popular frontend frameworks.
 id: cli-dapp
 sidebar_position: 4
-tags: ['TypeScript', 'Kadena client', 'frontend']
+tags: ['typescript', 'Kadena client', 'frontend']
 ---
 
 # kadena dapp

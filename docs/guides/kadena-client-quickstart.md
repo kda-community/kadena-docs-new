@@ -3,7 +3,7 @@ title: Develop with @kadena/client
 description: "The _Get started with @kadena/client_ library provides a beginner's guide to using the @kadena/client TypeScript API for interacting with Pact smart contracts and Chainweb nodes using JavaScript or TypeScript frontend frameworks."
 id: kadena-client-quickstart
 sidebar_position: 9
-tags: ['TypeScript', 'Kadena', 'Kadena client', 'frontend']
+tags: ['typescript', 'Kadena', 'Kadena client', 'frontend']
 ---
 
 # Develop with @kadena/client

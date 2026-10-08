@@ -4,7 +4,7 @@ description:
   The `@kadena/kadena-cli` library provides commands for creating applications and interacting with the Kadena network interactively or by using scripts from the command-line. The commands in this section support creating and managing transactions.
 id: cli-tx
 sidebar_position: 7
-tags: ['TypeScript', 'Kadena client', 'frontend']
+tags: ['typescript', 'Kadena client', 'frontend']
 ---
 
 # kadena tx
