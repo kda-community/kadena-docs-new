@@ -5,7 +5,7 @@ description:
 id: cli-account
 sidebar_position: 2
 toc_max-heading_level: 2
-tags: ['TypeScript', 'Kadena client', 'frontend']
+tags: ['typescript', 'Kadena client', 'frontend']
 ---
 
 # kadena account
