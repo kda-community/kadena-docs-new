@@ -1,6 +1,8 @@
-<div align="center">
-     <img src="static/img/kadena-github-view.png">
-</div>
+<<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kda-community/kadena-docs-new/main/static/img/kdace-docs-light-gitHubView.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kda-community/kadena-docs-new/main/static/img/kdace-docs-dark-gitHubView.png">
+  <img alt="Kadena Docs" src="https://raw.githubusercontent.com/kda-community/kadena-docs-new/main/static/img/kdace-docs-dark-gitHubView.png">
+</picture>
 
 <p>&nbsp;</p>
 
