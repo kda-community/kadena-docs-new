@@ -1,11 +1,11 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" 
-            srcset="https://raw.githubusercontent.com/kda-community/kadena-docs-new/main/static/img/kdace-docs-light-gitHubView.png">
+            srcset="https://raw.githubusercontent.com/kda-community/kadena-docs-new/main/static/img/kdace-docs-light-gitHubView.svg">
     <source media="(prefers-color-scheme: light)" 
-            srcset="https://raw.githubusercontent.com/kda-community/kadena-docs-new/main/static/img/kdace-docs-dark-gitHubView.png">
+            srcset="https://raw.githubusercontent.com/kda-community/kadena-docs-new/main/static/img/kdace-docs-dark-gitHubView.svg">
     <img alt="Kadena Docs" 
-         src="https://raw.githubusercontent.com/kda-community/kadena-docs-new/main/static/img/kdace-docs-dark-gitHubView.png" 
+         src="https://raw.githubusercontent.com/kda-community/kadena-docs-new/main/static/img/kdace-docs-dark-gitHubView.svg" 
          width="100%" 
          style="max-width: 100%; height: auto;">
   </picture>
